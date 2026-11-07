@@ -1,10 +1,10 @@
-# UMK3 Deluxe - Arcade Edition
+# UMK3 Arcade Edition
 
 A Super Nintendo hack of **Ultimate Mortal Kombat 3** that brings the game closer to the arcade version. It includes everything from Lucas Dext5r's UMK3 Deluxe (MK3 stages, Sheeva, Chameleon, stage fatalities) and uses Nemesis_C's Genesis "UMK3 Arcade" hack as a reference.
 
-Lucas Dext5r announced on his YouTube channel that he would no longer work on UMK3 Deluxe and that anyone was free to continue it. This patch is a continuation of his work.
+UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 
-**Download (beta 55):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
+**Download (beta 56):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
 
 ![Main menu](images/titulo.png) ![Select screen](images/img1_selecao.png)
 ![Mode select](images/img2_modos.png) ![Tower](images/img3_torre.png)
@@ -16,7 +16,7 @@ Lucas Dext5r announced on his YouTube channel that he would no longer work on UM
 |---|---|
 | Apply to | `Ultimate Mortal Kombat 3 (USA).sfc` (4 MB, no header) |
 | Original ROM MD5 | `0644da71f79d405a22934daa1474cefc` |
-| Patched ROM MD5 | `8ffe2846601932bba9d4179decca5cea` |
+| Patched ROM MD5 | `8ff8955da5036c5a56e967cc199dbfd1` |
 
 - The patched ROM is 8 MB (64 Mbit, ExHiROM). Use a patcher that can expand the file: Floating IPS, Lunar IPS, [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or UniPatcher.
 - If your ROM is 4,194,816 bytes (512-byte header, common in `.smc` files), remove the header first.
@@ -46,8 +46,8 @@ Lucas Dext5r announced on his YouTube channel that he would no longer work on UM
 
 Hack de **Ultimate Mortal Kombat 3** para Super Nintendo que deixa o jogo mais perto do arcade. Traz tudo do UMK3 Deluxe do Lucas Dext5r e usa a hack de Mega Drive "UMK3 Arcade" do Nemesis_C como referência.
 
-O Lucas Dext5r anunciou no canal dele do YouTube que não ia mais mexer no UMK3 Deluxe e que qualquer pessoa podia continuar. Este patch é a continuação do trabalho dele.
+O conteúdo do UMK3 Deluxe é usado com a permissão do autor, Lucas Dext5r.
 
-**Download (beta 55):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
+**Download (beta 56):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
 
-Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `8ffe2846601932bba9d4179decca5cea`.
+Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `8ff8955da5036c5a56e967cc199dbfd1`.
