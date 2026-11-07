@@ -4,7 +4,7 @@ A Super Nintendo hack of **Ultimate Mortal Kombat 3** that brings the game close
 
 UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 
-**Download (beta 56):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
+**Download (beta 59):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
 
 ![Main menu](images/titulo.png) ![Select screen](images/img1_selecao.png)
 ![Mode select](images/img2_modos.png) ![Tower](images/img3_torre.png)
@@ -16,11 +16,18 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 |---|---|
 | Apply to | `Ultimate Mortal Kombat 3 (USA).sfc` (4 MB, no header) |
 | Original ROM MD5 | `0644da71f79d405a22934daa1474cefc` |
-| Patched ROM MD5 | `8ff8955da5036c5a56e967cc199dbfd1` |
+| Patched ROM MD5 | `5149e8a9bcc8cd052ea0e1f199477c69` |
 
 - The patched ROM is 8 MB (64 Mbit, ExHiROM). Use a patcher that can expand the file: Floating IPS, Lunar IPS, [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or UniPatcher.
 - If your ROM is 4,194,816 bytes (512-byte header, common in `.smc` files), remove the header first.
 - No MSU-1 needed. Tested in Snes9x. Runs on emulators and flashcarts that support 64 Mbit ExHiROM (e.g. FXPak / SD2SNES); flashcarts limited to 32 Mbit will not run it.
+
+## Latest changes (betas 57-59)
+
+- **Beta 59:** fixed the graphics glitch in fights with Motaro and/or Shao Kahn (e.g. Motaro vs Shao Kahn): pink dots on the floor and background, wrong colors on the fighters. In the heaviest frames the end-of-frame work ran out of time and the scanline effects were turned on without being reset, writing random colors into the palettes. They are now reset when that happens, and the sprite graphics sent per frame in a fight are capped a bit lower so it almost never happens.
+- **Beta 59:** Bell Tower: fixed occasional frames with the whole screen garbled (e.g. Chameleon vs Jax doing combos). The rope drawing code is about 4x faster.
+- **Beta 58:** Liu Kang: after his launcher combo (HP, HP, Back+LP), every later hit did only 1/4 of the damage until the end of the round. Fixed.
+- **Beta 57:** The Bridge: the gap under the floor is filled like on the other stages. Jump-in HP + combo now connects on Kitana, Jade and Mileena like on everyone else.
 
 ## Highlights
 
@@ -48,6 +55,13 @@ Hack de **Ultimate Mortal Kombat 3** para Super Nintendo que deixa o jogo mais p
 
 O conteúdo do UMK3 Deluxe é usado com a permissão do autor, Lucas Dext5r.
 
-**Download (beta 56):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
+**Download (beta 59):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
 
-Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `8ff8955da5036c5a56e967cc199dbfd1`.
+Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `5149e8a9bcc8cd052ea0e1f199477c69`.
+
+### Novidades recentes (betas 57-59)
+
+- **Beta 59:** corrigido o glitch gráfico nas lutas com o Motaro e/ou o Shao Kahn (ex.: Motaro x Shao Kahn): pontos rosa no chão e no fundo, cores erradas nos lutadores.
+- **Beta 59:** Bell Tower: corrigidos os quadros com a tela inteira embaralhada (ex.: Chameleon x Jax fazendo combos).
+- **Beta 58:** Liu Kang: depois do combo lançador (soco forte, soco forte, trás + soco fraco), os golpes seguintes tiravam só 1/4 do dano até o fim do round. Corrigido.
+- **Beta 57:** The Bridge: o vazio embaixo do chão foi preenchido. Pulo + soco forte e combo agora pegam na Kitana, Jade e Mileena como nos outros.
