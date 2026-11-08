@@ -4,7 +4,7 @@ A Super Nintendo hack of **Ultimate Mortal Kombat 3** that brings the game close
 
 UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 
-**Download (beta 63):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
+**Download (beta 64):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
 
 ![Main menu](images/titulo.png) ![Select screen](images/img1_selecao.png)
 ![Mode select](images/img2_modos.png) ![Tower](images/img3_torre.png)
@@ -16,13 +16,15 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 |---|---|
 | Apply to | `Ultimate Mortal Kombat 3 (USA).sfc` (4 MB, no header) |
 | Original ROM MD5 | `0644da71f79d405a22934daa1474cefc` |
-| Patched ROM MD5 | `c31f8e8fc6c4cdb932874fe89e0a02d3` |
+| Patched ROM MD5 | `14f4ed62668850dccb068b4a9150128b` |
 
 - The patched ROM is 8 MB (64 Mbit, ExHiROM). Use a patcher that can expand the file: Floating IPS, Lunar IPS, [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or UniPatcher.
 - If your ROM is 4,194,816 bytes (512-byte header, common in `.smc` files), remove the header first.
 - No MSU-1 needed. Tested in Snes9x. Runs on emulators and flashcarts that support 64 Mbit ExHiROM (e.g. FXPak / SD2SNES); flashcarts limited to 32 Mbit will not run it.
 
-## Latest changes (betas 57-63)
+## Latest changes (betas 57-64)
+
+- **Beta 64:** BIOGRAPHIES is now an item of the SECRET STUFF screen, right under SOUND TEST, in the big font (it used to be inside KOOLER STUFF).
 
 - **Beta 63:** Ermac's fatality 2 (head punch: Run, Block, Run, Run, HK, close) can now be performed. On the original SNES cart a stray byte between Ermac's HK move list and Human Smoke's (where that shared fatality entry is) made the game read the entry one byte off, so only the one-button fatality cheat could do it.
 
@@ -61,11 +63,13 @@ Hack de **Ultimate Mortal Kombat 3** para Super Nintendo que deixa o jogo mais p
 
 O conteúdo do UMK3 Deluxe é usado com a permissão do autor, Lucas Dext5r.
 
-**Download (beta 63):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
+**Download (beta 64):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
 
-Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `c31f8e8fc6c4cdb932874fe89e0a02d3`.
+Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `14f4ed62668850dccb068b4a9150128b`.
 
-### Novidades recentes (betas 57-63)
+### Novidades recentes (betas 57-64)
+
+- **Beta 64:** BIOGRAPHIES virou um item da tela SECRET STUFF, logo abaixo do SOUND TEST, com a fonte grande (antes ficava dentro do KOOLER STUFF).
 
 - **Beta 63:** o fatality 2 do Ermac (soco que arranca a cabeça: corrida, defesa, corrida, corrida, chute alto, de perto) agora sai. No cartucho original sobrava 1 byte na lista de golpes dele e o comando nunca era reconhecido.
 
