@@ -4,7 +4,7 @@ A Super Nintendo hack of **Ultimate Mortal Kombat 3** that brings the game close
 
 UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 
-**Download (beta 68):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
+**Download (beta 69):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
 
 ![Main menu](images/titulo.png) ![Select screen](images/img1_selecao.png)
 ![Mode select](images/img2_modos.png) ![Tower](images/img3_torre.png)
@@ -16,16 +16,16 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 |---|---|
 | Apply to | `Ultimate Mortal Kombat 3 (USA).sfc` (4 MB, no header) |
 | Original ROM MD5 | `0644da71f79d405a22934daa1474cefc` |
-| Patched ROM MD5 | `5915e6550a1de9c2a3bbd71f97808e5f` |
+| Patched ROM MD5 | `c16e4490b6a08ba322f7641912cd2da8` |
 
 - The patched ROM is 8 MB (64 Mbit, ExHiROM). Use a patcher that can expand the file: Floating IPS, Lunar IPS, [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or UniPatcher.
 - If your ROM is 4,194,816 bytes (512-byte header, common in `.smc` files), remove the header first.
 - No MSU-1 needed. Tested in Snes9x and bsnes. Runs on emulators and flashcarts that support 64 Mbit ExHiROM (e.g. FXPak / SD2SNES); flashcarts limited to 32 Mbit will not run it.
 
-## Latest changes (betas 57-68)
+## Latest changes (betas 57-69)
 
+- **Beta 69:** fixed: pressing HP over and over made Khameleon throw Mileena's sai by accident. The sai now comes out only the proper way (hold HP, let go); mashing HP gives the punches and the combo.
 - **Beta 68:** Khameleon has her own ending: her story on one screen over Jade's picture with Khameleon's colors cycling (it used to be Jade's ending).
-
 - **Beta 67:** the CPU Khameleon now uses her own moves: Kitana's fan, Mileena's sai and Jade's boomerangs, picked at random (the game's AI picked her moves as Jade's).
 - **Beta 67:** CHOOSE YOUR DESTINY: the 4th tower shows GOD again (beta 66 showed "KHAMELEON W..." there).
 
@@ -82,14 +82,14 @@ Hack de **Ultimate Mortal Kombat 3** para Super Nintendo que deixa o jogo mais p
 
 O conteúdo do UMK3 Deluxe é usado com a permissão do autor, Lucas Dext5r.
 
-**Download (beta 68):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
+**Download (beta 69):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
 
-Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `5915e6550a1de9c2a3bbd71f97808e5f`.
+Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `c16e4490b6a08ba322f7641912cd2da8`.
 
-### Novidades recentes (betas 57-68)
+### Novidades recentes (betas 57-69)
 
+- **Beta 69:** corrigido: apertando o soco forte várias vezes seguidas, a Khameleon soltava o sai da Mileena sem querer. Agora o sai só sai do jeito certo (segure o soco forte e solte); apertar várias vezes só dá os socos e o combo.
 - **Beta 68:** a Khameleon tem final próprio: a história dela numa tela só, com a figura da Jade piscando as cores da Khameleon (antes aparecia o final da Jade).
-
 - **Beta 67:** a Khameleon da CPU agora usa os golpes dela: o leque da Kitana, o sai da Mileena e os bumerangues da Jade, sorteados a cada vez (a IA do jogo escolhia os golpes pela Jade).
 - **Beta 67:** CHOOSE YOUR DESTINY: a 4ª torre voltou a mostrar GOD (na beta 66 aparecia "KHAMELEON W...").
 
