@@ -4,7 +4,7 @@ A Super Nintendo hack of **Ultimate Mortal Kombat 3** that brings the game close
 
 UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 
-**Download (beta 66):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
+**Download (beta 67):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
 
 ![Main menu](images/titulo.png) ![Select screen](images/img1_selecao.png)
 ![Mode select](images/img2_modos.png) ![Tower](images/img3_torre.png)
@@ -16,19 +16,22 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 |---|---|
 | Apply to | `Ultimate Mortal Kombat 3 (USA).sfc` (4 MB, no header) |
 | Original ROM MD5 | `0644da71f79d405a22934daa1474cefc` |
-| Patched ROM MD5 | `ef076e3329cefb0f9d4bc227a15c11c2` |
+| Patched ROM MD5 | `4e01b9b68b2dd518c8e7a4653a691a70` |
 
 - The patched ROM is 8 MB (64 Mbit, ExHiROM). Use a patcher that can expand the file: Floating IPS, Lunar IPS, [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or UniPatcher.
 - If your ROM is 4,194,816 bytes (512-byte header, common in `.smc` files), remove the header first.
 - No MSU-1 needed. Tested in Snes9x and bsnes. Runs on emulators and flashcarts that support 64 Mbit ExHiROM (e.g. FXPak / SD2SNES); flashcarts limited to 32 Mbit will not run it.
 
-## Latest changes (betas 57-66)
+## Latest changes (betas 57-67)
+
+- **Beta 67:** the CPU Khameleon now uses her own moves: Kitana's fan, Mileena's sai and Jade's boomerangs, picked at random (the game's AI picked her moves as Jade's).
+- **Beta 67:** CHOOSE YOUR DESTINY: the 4th tower shows GOD again (beta 66 showed "KHAMELEON W..." there).
 
 - **Beta 66:** new fighter **Khameleon** (the Nintendo 64 Mortal Kombat Trilogy ninja), in Human Smoke's old slot. She cycles through Kitana's, Jade's and Mileena's colors and uses moves from all three:
   - Kitana's fan (Fwd, Fwd + HP + LP); Jade's boomerangs (Back, Fwd + HP / LP / LK; Back, Back, Fwd + LP); Mileena's sai (hold HP, let go); Mileena's throw.
   - Combo: HP, HP, LP, LP, HK, HK, Down, Fwd + LK (7 hits, launcher).
   - Fatalities (close): Kitana's kiss (Run, Run, Block, Block + LK), Mileena's man-eater (Down, Fwd, Down, Fwd + LP), Jade's staff (Up, Up, Down, Fwd + HP). Stage fatality: Down, Down, Down + LP. Jade's friendship and babality.
-  - Own select and tower portraits, VS art, life bar name, "KHAMELEON WINS", announcer voice and biography; works in the tower, team modes and tournament. The CPU Khameleon fights like Jade and her ending is Jade's.
+  - Own select and tower portraits, VS art, life bar name, "KHAMELEON WINS", announcer voice and biography; works in the tower, team modes and tournament. Her ending is Jade's.
 - **Beta 66:** Human Smoke is now on Smoke's slot: press SELECT on Smoke to swap the portrait (with a fade) to Human Smoke and back. Random select never picks Human Smoke.
 - **Beta 66:** the X button on the select screen picks the fighter's color (the second outfit used to show up only on P2 in a mirror match); X no longer picks the fighter. Ermac and Noob got their second color back (darker red Ermac, all-black Noob, as in UMK3).
 - **Beta 66:** Hidden Portal: no fighters running across the bridge and no Shao Kahn laugh before the fight.
@@ -77,17 +80,20 @@ Hack de **Ultimate Mortal Kombat 3** para Super Nintendo que deixa o jogo mais p
 
 O conteúdo do UMK3 Deluxe é usado com a permissão do autor, Lucas Dext5r.
 
-**Download (beta 66):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
+**Download (beta 67):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
 
-Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `ef076e3329cefb0f9d4bc227a15c11c2`.
+Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `4e01b9b68b2dd518c8e7a4653a691a70`.
 
-### Novidades recentes (betas 57-66)
+### Novidades recentes (betas 57-67)
+
+- **Beta 67:** a Khameleon da CPU agora usa os golpes dela: o leque da Kitana, o sai da Mileena e os bumerangues da Jade, sorteados a cada vez (a IA do jogo escolhia os golpes pela Jade).
+- **Beta 67:** CHOOSE YOUR DESTINY: a 4ª torre voltou a mostrar GOD (na beta 66 aparecia "KHAMELEON W...").
 
 - **Beta 66:** lutadora nova, a **Khameleon** (a ninja do Mortal Kombat Trilogy de Nintendo 64), na casa que era do Human Smoke. Ela pisca as cores da Kitana, da Jade e da Mileena e usa golpes das três:
   - Leque da Kitana (frente, frente + soco forte + soco fraco); bumerangues da Jade (trás, frente + soco forte / soco fraco / chute baixo; trás, trás, frente + soco fraco); sai da Mileena (segure soco forte e solte); agarrão da Mileena.
   - Combo: soco forte, soco forte, soco fraco, soco fraco, chute alto, chute alto, baixo, frente + chute baixo (7 golpes, lança o oponente).
   - Fatalities (de perto): beijo da Kitana (corrida, corrida, defesa, defesa + chute baixo), a Mileena que engole e cospe os ossos (baixo, frente, baixo, frente + soco fraco), cajado da Jade (cima, cima, baixo, frente + soco forte). Stage fatality: baixo, baixo, baixo + soco fraco. Friendship e babality da Jade.
-  - Retratos próprios na seleção e na torre, arte do VS, nome na barra de vida, "KHAMELEON WINS", voz do locutor e biografia; funciona na torre, nos modos de equipe e no torneio. A CPU com a Khameleon luta como a Jade, e o final dela é o da Jade.
+  - Retratos próprios na seleção e na torre, arte do VS, nome na barra de vida, "KHAMELEON WINS", voz do locutor e biografia; funciona na torre, nos modos de equipe e no torneio. O final dela é o da Jade.
 - **Beta 66:** o Human Smoke agora fica na casa do Smoke: aperte SELECT em cima do Smoke e o retrato troca (com fade) para o Human Smoke; SELECT de novo volta. O aleatório nunca dá o Human Smoke.
 - **Beta 66:** o botão X na tela de seleção escolhe a cor do lutador (antes a segunda roupa só aparecia no P2 de um espelho); o X não escolhe mais o lutador. Ermac e Noob ganharam a cor alternativa de volta (Ermac vermelho mais escuro, Noob todo preto, como no UMK3).
 - **Beta 66:** Hidden Portal: sem os lutadores correndo pela ponte e sem a risada do Shao Kahn antes da luta.
