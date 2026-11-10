@@ -4,7 +4,7 @@ A Super Nintendo hack of **Ultimate Mortal Kombat 3** that brings the game close
 
 UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 
-**Download (beta 70):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
+**Download (beta 71):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
 
 ![Main menu](images/titulo.png) ![Select screen](images/img1_selecao.png)
 ![Mode select](images/img2_modos.png) ![Tower](images/img3_torre.png)
@@ -16,13 +16,23 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 |---|---|
 | Apply to | `Ultimate Mortal Kombat 3 (USA).sfc` (4 MB, no header) |
 | Original ROM MD5 | `0644da71f79d405a22934daa1474cefc` |
-| Patched ROM MD5 | `08e23ab35c90124fbaaf89fc60571b9f` |
+| Patched ROM MD5 | `538db7510f2a1ea18d40613ed5d890e5` |
 
 - The patched ROM is 8 MB (64 Mbit, ExHiROM). Use a patcher that can expand the file: Floating IPS, Lunar IPS, [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or UniPatcher.
 - If your ROM is 4,194,816 bytes (512-byte header, common in `.smc` files), remove the header first.
 - No MSU-1 needed. Tested in Snes9x and bsnes. Runs on emulators and flashcarts that support 64 Mbit ExHiROM (e.g. FXPak / SD2SNES); flashcarts limited to 32 Mbit will not run it.
 
-## Latest changes (betas 57-70)
+## Latest changes (betas 57-71)
+
+- **Beta 71:** tower and 2-player stages are now picked at random from all 17 (each one once before any repeats, never the same twice in a row). The tower used to go through the same order every time, MK3 stages first, and the first fight after power-on was always on the Rooftop. The CPU Motaro and Shao Kahn keep their own stages, and KOMBAT ZONE still picks the stage.
+- **Beta 71:** Endurance fights have random opponents (no repeats, never your own fighter); they used to be the same pairs (Kitana then Sheeva, Jax then Nightwolf).
+- **Beta 71:** fixed a tower freeze: sometimes a stage (e.g. Jade's Desert) showed up with no fighters, only the music. Some of the hack's variables were in the memory the game uses for its processes, and with many of them at once (Sheeva, Scorpion's Lair, Hidden Portal) the game got lost.
+- **Beta 71:** The Pit 3: during the stage fatality, as the camera goes down, the names and life bars no longer vanish or break.
+- **Beta 71:** Motaro fights (worse with Chameleon): fixed the short picture glitches (HUD and floor drawn a few lines off for one frame). In the heaviest frames the end-of-frame work ran out of time; the scanline effects (HUD, floor) now always start in place.
+- **Beta 71:** air throws on Liu Kang (Human Smoke, Scorpion): he no longer pops up behind the attacker when he lands.
+- **Beta 71:** Khameleon's brutality now uses Mileena's commands: Y, B, B, Y, L, X, A, X, L, Y, B (HP, LP, LP, HP, BL, HK, LK, HK, BL, HP, LP). Jade keeps hers.
+- **Beta 71:** when Shao Kahn wins a round the announcer says "I Win". The clip was already there, but it was asked for right away and the blood dripping on the floor took its voice; it now waits for the loser's scream to end.
+- **Beta 71:** removed every leftover of the Deluxe's animality (the game has no animality commands): the CPU's path to it, its table, its sounds and the "Animality" call. More free space in the ROM.
 
 - **Beta 70:** CPU Motaro: his grab no longer pulls the opponent in from far away at once; he reaches out first (time to get away), only catches someone in reach and on the ground, and does not try from too far. Grabbed by the player's Motaro, he no longer hangs in the air after the punch. At the end of a combo he rears back and slides away much further, then waits a moment before attacking. Motaro (CPU and player) takes the heavy hit sound on the punch of the grab, on uppercuts and on the last hit of a combo.
 - **Beta 69:** fixed: pressing HP over and over made Khameleon throw Mileena's sai by accident. The sai now comes out only the proper way (hold HP, let go); mashing HP gives the punches and the combo.
@@ -66,6 +76,7 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 - Fighter names inside the life bars, as in the arcade.
 - Air combos for Kitana, Jade and Mileena.
 - **TRAINING mode:** pick both fighters with controller 1, the opponent stands still, infinite health and time, KOMBAT ZONE stage select. START + SELECT exits.
+- Random stage order in the tower and 2-player fights; random Endurance opponents.
 - KOMBAT ZONE stage select, OPTIONS > CREDITS screen, many sound, announcer and graphics fixes, less slowdown in the boss fights.
 
 ## Credits
@@ -83,11 +94,21 @@ Hack de **Ultimate Mortal Kombat 3** para Super Nintendo que deixa o jogo mais p
 
 O conteúdo do UMK3 Deluxe é usado com a permissão do autor, Lucas Dext5r.
 
-**Download (beta 70):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
+**Download (beta 71):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
 
-Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `08e23ab35c90124fbaaf89fc60571b9f`.
+Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `538db7510f2a1ea18d40613ed5d890e5`.
 
-### Novidades recentes (betas 57-70)
+### Novidades recentes (betas 57-71)
+
+- **Beta 71:** torre e 2 jogadores: os cenários agora são sorteados entre os 17 (cada um sai uma vez antes de repetir e nunca o mesmo duas vezes seguidas). Antes a torre seguia sempre a mesma ordem, com os cenários do MK3 primeiro, e a 1ª luta depois de ligar era sempre no Rooftop. O Motaro e o Shao Kahn da CPU continuam nos cenários deles e a KOMBAT ZONE continua escolhendo o cenário.
+- **Beta 71:** lutas de resistência (Endurance) com oponentes sorteados, sem repetir e nunca o seu lutador; antes eram sempre os mesmos (Kitana e depois Sheeva; Jax e depois Nightwolf).
+- **Beta 71:** corrigido um travamento na torre: às vezes o cenário aparecia (ex.: Jade's Desert) sem os lutadores, só com a música. Variáveis da hack estavam na memória que o jogo usa para os seus processos; com muitos ao mesmo tempo (Sheeva, Scorpion's Lair, Hidden Portal) o jogo se perdia.
+- **Beta 71:** The Pit 3: no stage fatality, com a câmera descendo, os nomes e as barras de vida não somem nem estragam mais.
+- **Beta 71:** lutas com o Motaro (mais com o Chameleon): corrigidos os glitches curtos de imagem (HUD e chão desenhados umas linhas fora por um quadro). Nos quadros mais pesados o trabalho do fim do quadro passava do tempo; agora os efeitos de linha (HUD, chão) sempre começam no lugar certo.
+- **Beta 71:** agarrão aéreo no Liu Kang (Human Smoke, Scorpion): ele não aparece mais de repente atrás do jogador quando cai.
+- **Beta 71:** a brutality da Khameleon agora usa os comandos da Mileena: Y, B, B, Y, L, X, A, X, L, Y, B (soco forte, soco fraco, soco fraco, soco forte, defesa, chute alto, chute baixo, chute alto, defesa, soco forte, soco fraco). A Jade continua com a dela.
+- **Beta 71:** quando o Shao Kahn ganha um round, o locutor fala "I Win". A fala já existia, mas era pedida na hora e o barulho do sangue pingando no chão tomava a voz dela; agora ela espera o grito de quem perdeu acabar.
+- **Beta 71:** removidos todos os restos do animality da Deluxe (o jogo não tem os comandos de animality): o caminho da CPU, a tabela, os sons e a fala "Animality". Sobra mais espaço na ROM.
 
 - **Beta 70:** Motaro da CPU: o agarrão não puxa mais o oponente de longe na hora; ele estica o braço antes (dá tempo de escapar), só pega quem está ao alcance e no chão e nem tenta se estiver longe demais. Agarrado pelo Motaro do jogador, não fica mais parado no ar depois do soco. No fim do combo ele empina e recua bem mais e espera um pouco antes de atacar. O Motaro (CPU e jogador) leva o som de pancada forte no soco do agarrão, no uppercut e no último golpe do combo.
 - **Beta 69:** corrigido: apertando o soco forte várias vezes seguidas, a Khameleon soltava o sai da Mileena sem querer. Agora o sai só sai do jeito certo (segure o soco forte e solte); apertar várias vezes só dá os socos e o combo.
