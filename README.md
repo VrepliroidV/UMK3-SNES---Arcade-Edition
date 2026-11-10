@@ -16,7 +16,7 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 |---|---|
 | Apply to | `Ultimate Mortal Kombat 3 (USA).sfc` (4 MB, no header) |
 | Original ROM MD5 | `0644da71f79d405a22934daa1474cefc` |
-| Patched ROM MD5 | `538db7510f2a1ea18d40613ed5d890e5` |
+| Patched ROM MD5 | `b04388eef6071792d85f97dab46c471c` |
 
 - The patched ROM is 8 MB (64 Mbit, ExHiROM). Use a patcher that can expand the file: Floating IPS, Lunar IPS, [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or UniPatcher.
 - If your ROM is 4,194,816 bytes (512-byte header, common in `.smc` files), remove the header first.
@@ -24,6 +24,7 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 
 ## Latest changes (betas 57-71)
 
+- **Beta 71:** the game's version is shown on the OPTIONS screen, small, in the bottom right corner on the CREDITS line (VER.BETA71).
 - **Beta 71:** tower and 2-player stages are now picked at random from all 17 (each one once before any repeats, never the same twice in a row). The tower used to go through the same order every time, MK3 stages first, and the first fight after power-on was always on the Rooftop. The CPU Motaro and Shao Kahn keep their own stages, and KOMBAT ZONE still picks the stage.
 - **Beta 71:** Endurance fights have random opponents (no repeats, never your own fighter); they used to be the same pairs (Kitana then Sheeva, Jax then Nightwolf).
 - **Beta 71:** fixed a tower freeze: sometimes a stage (e.g. Jade's Desert) showed up with no fighters, only the music. Some of the hack's variables were in the memory the game uses for its processes, and with many of them at once (Sheeva, Scorpion's Lair, Hidden Portal) the game got lost.
@@ -96,10 +97,11 @@ O conteúdo do UMK3 Deluxe é usado com a permissão do autor, Lucas Dext5r.
 
 **Download (beta 71):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
 
-Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `538db7510f2a1ea18d40613ed5d890e5`.
+Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `b04388eef6071792d85f97dab46c471c`.
 
 ### Novidades recentes (betas 57-71)
 
+- **Beta 71:** a versão do jogo aparece na tela OPTIONS, em letra pequena no canto de baixo à direita, na linha do CREDITS (VER.BETA71).
 - **Beta 71:** torre e 2 jogadores: os cenários agora são sorteados entre os 17 (cada um sai uma vez antes de repetir e nunca o mesmo duas vezes seguidas). Antes a torre seguia sempre a mesma ordem, com os cenários do MK3 primeiro, e a 1ª luta depois de ligar era sempre no Rooftop. O Motaro e o Shao Kahn da CPU continuam nos cenários deles e a KOMBAT ZONE continua escolhendo o cenário.
 - **Beta 71:** lutas de resistência (Endurance) com oponentes sorteados, sem repetir e nunca o seu lutador; antes eram sempre os mesmos (Kitana e depois Sheeva; Jax e depois Nightwolf).
 - **Beta 71:** corrigido um travamento na torre: às vezes o cenário aparecia (ex.: Jade's Desert) sem os lutadores, só com a música. Variáveis da hack estavam na memória que o jogo usa para os seus processos; com muitos ao mesmo tempo (Sheeva, Scorpion's Lair, Hidden Portal) o jogo se perdia.
