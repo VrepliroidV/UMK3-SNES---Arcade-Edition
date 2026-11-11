@@ -4,7 +4,7 @@ A Super Nintendo hack of **Ultimate Mortal Kombat 3** that brings the game close
 
 UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 
-**Download (beta 75):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
+**Download (beta 76):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
 
 ![Main menu](images/titulo.png) ![Select screen](images/img1_selecao.png)
 ![Mode select](images/img2_modos.png) ![Tower](images/img3_torre.png)
@@ -16,13 +16,15 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 |---|---|
 | Apply to | `Ultimate Mortal Kombat 3 (USA).sfc` (4 MB, no header) |
 | Original ROM MD5 | `0644da71f79d405a22934daa1474cefc` |
-| Patched ROM MD5 | `e92f6a0754db8c7f8aa50618d3a2f45e` |
+| Patched ROM MD5 | `b9baf0108cbe0d7dbb02bc4b4d29c8eb` |
 
 - The patched ROM is 8 MB (64 Mbit, ExHiROM). Use a patcher that can expand the file: Floating IPS, Lunar IPS, [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or UniPatcher.
 - If your ROM is 4,194,816 bytes (512-byte header, common in `.smc` files), remove the header first.
 - No MSU-1 needed. Tested in Snes9x and bsnes. Runs on emulators and flashcarts that support 64 Mbit ExHiROM (e.g. FXPak / SD2SNES); flashcarts limited to 32 Mbit will not run it.
 
-## Latest changes (betas 57-75)
+## Latest changes (betas 57-76)
+
+- **Beta 76:** select screen: new background picture (a dark stone wall over a stone floor), and the grid's outer border is now drawn like the lines between the slots.
 
 - **Beta 75:** Triborg's juggle: the jump kick now knocks the opponent away with the game's normal fall (like any hit in the air: a short rise, then the diagonal fall). The slower fall of beta 73 looked odd. The teleport still catches the opponent in the air.
 - **Beta 75:** Triborg's juggle: the spear comes out only once in a string. If the spear opened it (spear, then HP, HP, Down + LP...), it no longer comes out again after the teleport; Back, Back + LP gives the normal punch until the string is over.
@@ -120,11 +122,13 @@ Hack de **Ultimate Mortal Kombat 3** para Super Nintendo que deixa o jogo mais p
 
 O conteúdo do UMK3 Deluxe é usado com a permissão do autor, Lucas Dext5r.
 
-**Download (beta 75):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
+**Download (beta 76):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
 
-Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `e92f6a0754db8c7f8aa50618d3a2f45e`.
+Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `b9baf0108cbe0d7dbb02bc4b4d29c8eb`.
 
-### Novidades recentes (betas 57-75)
+### Novidades recentes (betas 57-76)
+
+- **Beta 76:** tela de seleção: nova foto de fundo (parede de pedra escura sobre um chão de pedra), e a borda de fora da grade agora é desenhada igual às linhas entre as casas.
 
 - **Beta 75:** malabarismo do Triborg: o chute no ar agora joga o oponente com a queda normal do jogo (como qualquer golpe no ar: sobe um pouco e cai na diagonal). A queda mais lenta da beta 73 ficava esquisita. O teleporte continua pegando o oponente no ar.
 - **Beta 75:** malabarismo do Triborg: o arpão sai uma vez só na sequência. Se a sequência começou com o arpão (arpão, depois soco forte, soco forte, baixo + soco fraco...), ele não sai de novo depois do teleporte; trás, trás + soco fraco dá o soco normal até a sequência acabar.
