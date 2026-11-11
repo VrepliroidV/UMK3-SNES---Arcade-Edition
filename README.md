@@ -1,6 +1,6 @@
 # UMK3 - Extended Edition
 
-A Super Nintendo hack of **Ultimate Mortal Kombat 3** that brings the game closer to the arcade version. It includes everything from Lucas Dext5r's UMK3 Deluxe (MK3 stages, Sheeva, Chameleon, stage fatalities) and uses Nemesis_C's Genesis "UMK3 Arcade" hack as a reference.
+A Super Nintendo hack of **Ultimate Mortal Kombat 3**. It includes everything from Lucas Dext5r's UMK3 Deluxe (MK3 stages, Sheeva, Chameleon, stage fatalities) and uses Nemesis_C's Genesis "UMK3 Arcade" hack as a reference.
 
 UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 
