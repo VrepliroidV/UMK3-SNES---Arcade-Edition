@@ -4,7 +4,7 @@ A Super Nintendo hack of **Ultimate Mortal Kombat 3**. It includes everything fr
 
 UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 
-**Download (beta 78):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
+**Download (beta 79):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
 
 ![Main menu](images/titulo.png) ![Select screen](images/img1_selecao.png)
 ![Mode select](images/img2_modos.png) ![Tower](images/img3_torre.png)
@@ -16,13 +16,18 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 |---|---|
 | Apply to | `Ultimate Mortal Kombat 3 (USA).sfc` (4 MB, no header) |
 | Original ROM MD5 | `0644da71f79d405a22934daa1474cefc` |
-| Patched ROM MD5 | `a9c4520fa902b77a1f7365572bb4084f` |
+| Patched ROM MD5 | `7cf0aeb5cf380de810237aeae7161c6c` |
 
 - The patched ROM is 8 MB (64 Mbit, ExHiROM). Use a patcher that can expand the file: Floating IPS, Lunar IPS, [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or UniPatcher.
 - If your ROM is 4,194,816 bytes (512-byte header, common in `.smc` files), remove the header first.
 - No MSU-1 needed. Tested in Snes9x and bsnes. Runs on emulators and flashcarts that support 64 Mbit ExHiROM (e.g. FXPak / SD2SNES); flashcarts limited to 32 Mbit will not run it.
 
-## Latest changes (betas 57-78)
+## Latest changes (betas 57-79)
+
+- **Beta 79:** select screen: fixed the garbage on the bottom row of the "?" slot (an animated glitch) and the gray/white pieces on the P1 preview (e.g. Kitana), seen e.g. in the 6-player mode. When the last round of a match ended at FINISH HIM (a 2-player win, a continue in 1 player...), the game still thought a fight was on, and the next select screen gave the previews their fight shadows, whose graphics went over the "?" slot and the P1 preview. The select screen now always starts with the fight over.
+- **Beta 79:** select screen: both cursors are 1 pixel higher.
+- **Beta 79:** CHOOSE YOUR DESTINY: the GOD tower no longer shows up, now and then, as a row of 9 Endurance fights with no Motaro and no Shao Kahn (a Deluxe test row in one of the game's 6 tower sets). It is a normal GOD tower again, as in the original game, with Noob Saibot in place of the original's second Liu Kang.
+- **Beta 79:** Hidden Portal: the bridge's pillars now reach the bottom of the screen (there was an empty strip under them and the bridge looked like it was floating).
 
 - **Beta 78:** new name: **UMK3 - Extended Edition** (it was UMK3 Arcade Edition). The CREDITS screen (OPTIONS) and the name emulators and flashcarts show (the ROM header, "UMK3-EXTENDED EDITION": it holds 21 characters) use it. The patch is now `UMK3_extended_edition.ips`, in `UMK3_extended_edition.zip`.
 
@@ -127,11 +132,16 @@ Hack de **Ultimate Mortal Kombat 3** para Super Nintendo. Traz tudo do UMK3 Delu
 
 O conteúdo do UMK3 Deluxe é usado com a permissão do autor, Lucas Dext5r.
 
-**Download (beta 78):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
+**Download (beta 79):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
 
-Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `a9c4520fa902b77a1f7365572bb4084f`.
+Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `7cf0aeb5cf380de810237aeae7161c6c`.
 
-### Novidades recentes (betas 57-78)
+### Novidades recentes (betas 57-79)
+
+- **Beta 79:** tela de seleção: corrigido o lixo na última fileira do "?" (um glitch animado) e os pedaços cinza/brancos na prévia do P1 (ex.: Kitana), vistos por exemplo no modo de 6 jogadores. Quando o último round de uma partida terminava no FINISH HIM (vitória no modo de 2 jogadores, continue no modo de 1 jogador...), o jogo continuava achando que havia uma luta, e a tela de seleção seguinte dava as sombras da luta para as prévias dos lutadores; os gráficos das sombras iam parar em cima do "?" e da prévia do P1. Agora a tela de seleção sempre começa com a luta encerrada.
+- **Beta 79:** tela de seleção: os cursores dos dois jogadores subiram 1 pixel.
+- **Beta 79:** CHOOSE YOUR DESTINY: a torre GOD não aparece mais, de vez em quando, como uma fileira de 9 lutas Endurance sem o Motaro e sem o Shao Kahn (uma fileira de teste da Deluxe num dos 6 conjuntos de torres do jogo). Ela voltou a ser uma torre GOD normal, como no jogo original, com o Noob Saibot no lugar do segundo Liu Kang do original.
+- **Beta 79:** Hidden Portal: os pilares da ponte agora vão até o fim da tela (ficava uma faixa vazia embaixo deles e a ponte parecia flutuar).
 
 - **Beta 78:** nome novo: **UMK3 - Extended Edition** (era UMK3 Arcade Edition). Aparece na tela de créditos (OPTIONS) e no nome que os emuladores e flashcarts mostram (cabeçalho da ROM, "UMK3-EXTENDED EDITION": cabem só 21 letras). O patch agora se chama `UMK3_extended_edition.ips`, dentro do `UMK3_extended_edition.zip`.
 
