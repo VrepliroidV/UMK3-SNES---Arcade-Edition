@@ -4,7 +4,7 @@ A Super Nintendo hack of **Ultimate Mortal Kombat 3** that brings the game close
 
 UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 
-**Download (beta 71):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
+**Download (beta 72):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
 
 ![Main menu](images/titulo.png) ![Select screen](images/img1_selecao.png)
 ![Mode select](images/img2_modos.png) ![Tower](images/img3_torre.png)
@@ -16,13 +16,25 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 |---|---|
 | Apply to | `Ultimate Mortal Kombat 3 (USA).sfc` (4 MB, no header) |
 | Original ROM MD5 | `0644da71f79d405a22934daa1474cefc` |
-| Patched ROM MD5 | `b04388eef6071792d85f97dab46c471c` |
+| Patched ROM MD5 | `4151e2b2d4a198036bea3153b939f38a` |
 
 - The patched ROM is 8 MB (64 Mbit, ExHiROM). Use a patcher that can expand the file: Floating IPS, Lunar IPS, [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or UniPatcher.
 - If your ROM is 4,194,816 bytes (512-byte header, common in `.smc` files), remove the header first.
 - No MSU-1 needed. Tested in Snes9x and bsnes. Runs on emulators and flashcarts that support 64 Mbit ExHiROM (e.g. FXPak / SD2SNES); flashcarts limited to 32 Mbit will not run it.
 
-## Latest changes (betas 57-71)
+## Latest changes (betas 57-72)
+
+- **Beta 72:** Shao Kahn's Lost Treasures: after you beat Shao Kahn in 1 player, the treasure screen comes up, as in the arcade (the SNES game only had it in the 8-player tournament), with the menu music. Treasure 0 goes on to your ending; treasures 6 and 7 are the original Endurance fights (Noob Saibot + Ermac, Classic Sub-Zero + Human Smoke) on normal stages; treasure 8 is a fight against **Triborg**.
+- **Beta 72:** new hidden fighter, **Triborg**: the three cyborgs in one (Cyrax, Sektor and Smoke), with their colors cycling. Beat him in treasure 8 to unlock him (a "YOU UNLOCKED TRIBORG" screen shows up), then press SELECT on the "?" slot of the select screen. The game has no save: he stays unlocked until you turn it off or reset.
+  - Cyrax's net (Back, Back + LK) and bombs (hold LK, Fwd, Fwd + HK far / Back, Back + HK close); Sektor's missile (Fwd, Fwd + LP) and homing missile (Fwd, Down, Back + HP); Smoke's spear (Back, Back + LP), teleport punch (Fwd, Fwd + LK, also in the air), air throw (Block in the air) and invisibility (Up, Up + Run).
+  - Combos: HP, HP, Down + LP (launcher); HP, HP, HK, HK; HP, HP, LK, HK, LP.
+  - Juggle: after HP, HP, Down + LP, jump in with a kick, teleport in the air (it knocks the opponent up again), land and throw the spear or the net, do the combo again; then only normal hits and the air throw work until the opponent lands.
+  - Fatalities: Cyrax Down, Down, Up, Down + HP; Sektor Fwd, Fwd, Fwd, Back + Block (far); Smoke Up, Up, Fwd, Down (hold Block, far). Smoke's brutality: Y, A, A, X, L, L, B, B, Y, L, L (HP, LK, LK, HK, BL, BL, LP, LP, HP, BL, BL).
+  - His own select and tower portraits, VS art, life bar name, "TRIBORG WINS", announcer voice, Smoke's victory pose, biography ("???" until he is unlocked) and ending; no smoke cloud around him. He also works in the team modes.
+- **Beta 72:** player Motaro: new tail fireball (it comes out of the tip of his tail) with Down, Back + LK, and the screen shakes when he lands from a jump.
+- **Beta 72:** Motaro's grab (CPU and player) no longer does damage when it catches; only the punch hurts, also when the opponent is blocking.
+- **Beta 72:** Noob Saibot's teleport throw on Sheeva: she no longer ends up far from him in Sonya's pose; she is held like everyone else.
+- **Beta 72:** Khameleon: after a Mercy the announcer no longer says "Jade".
 
 - **Beta 71:** the game's version is shown on the OPTIONS screen, small, in the bottom right corner on the CREDITS line (VER.BETA71).
 - **Beta 71:** tower and 2-player stages are now picked at random from all 17 (each one once before any repeats, never the same twice in a row). The tower used to go through the same order every time, MK3 stages first, and the first fight after power-on was always on the Rooftop. The CPU Motaro and Shao Kahn keep their own stages, and KOMBAT ZONE still picks the stage.
@@ -71,6 +83,7 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 - Arcade-style select screen (7/7/5/5/5) with everyone unlocked: Sheeva, Chameleon, Khameleon, Motaro and Shao Kahn, each with a slot and portrait (SELECT on Smoke swaps to Human Smoke). "?" slot = random select.
 - Chameleon cycles through every ninja's colors, has one special move from each ninja, his own name, announcer voice, brutality and green blood.
 - Khameleon cycles through Kitana's, Jade's and Mileena's colors, with moves, combo and one fatality from each of them.
+- **Triborg** (hidden): Cyrax, Sektor and Smoke in one, with moves, combos, a juggle and one fatality from each of them. Unlock him by beating him in Shao Kahn's Lost Treasures, which now come up after beating Shao Kahn in 1 player.
 - X on the select screen picks each fighter's second outfit.
 - Motaro and Shao Kahn get big VS-screen art and biographies; Motaro can't be launched or juggled.
 - Arcade intro story, redesigned main menu and mode select, CHOOSE YOUR DESTINY tower with the GOD tower.
@@ -95,11 +108,23 @@ Hack de **Ultimate Mortal Kombat 3** para Super Nintendo que deixa o jogo mais p
 
 O conteúdo do UMK3 Deluxe é usado com a permissão do autor, Lucas Dext5r.
 
-**Download (beta 71):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
+**Download (beta 72):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
 
-Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `b04388eef6071792d85f97dab46c471c`.
+Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `4151e2b2d4a198036bea3153b939f38a`.
 
-### Novidades recentes (betas 57-71)
+### Novidades recentes (betas 57-72)
+
+- **Beta 72:** Shao Kahn's Lost Treasures: vencendo o Shao Kahn no modo de 1 jogador, agora aparece a tela dos tesouros, como no arcade (no SNES ela só existia no torneio de 8 jogadores), com a música do menu. O tesouro 0 segue para o seu final; os tesouros 6 e 7 são as lutas de resistência originais (Noob Saibot + Ermac, Classic Sub-Zero + Human Smoke) em cenários normais; o tesouro 8 é uma luta contra o **Triborg**.
+- **Beta 72:** lutador escondido novo, o **Triborg**: os três ciborgues em um só (Cyrax, Sektor e Smoke), com as cores dos três se alternando. Para desbloquear, vença o Triborg no tesouro 8 (aparece a tela "YOU UNLOCKED TRIBORG") e depois aperte SELECT em cima do "?" na tela de seleção. O jogo não tem save: ele fica liberado até desligar ou dar reset.
+  - Rede do Cyrax (trás, trás + chute baixo) e bombas (segure chute baixo, frente, frente + chute alto longe / trás, trás + chute alto perto); míssil do Sektor (frente, frente + soco fraco) e míssil perseguidor (frente, baixo, trás + soco forte); arpão do Smoke (trás, trás + soco fraco), teleporte (frente, frente + chute baixo, também no ar), agarrão no ar (defesa no ar) e invisibilidade (cima, cima + corrida).
+  - Combos: soco forte, soco forte, baixo + soco fraco (lança); soco forte, soco forte, chute alto, chute alto; soco forte, soco forte, chute baixo, chute alto, soco fraco.
+  - Malabarismo: depois do soco forte, soco forte, baixo + soco fraco, pule e acerte um chute, faça o teleporte no ar (ele joga o oponente para o alto de novo), já no chão solte o arpão ou a rede e faça o combo de novo; depois disso só os golpes normais e o agarrão no ar pegam até o oponente cair no chão.
+  - Fatalities: do Cyrax baixo, baixo, cima, baixo + soco forte; do Sektor frente, frente, frente, trás + defesa (longe); do Smoke cima, cima, frente, baixo (segurando defesa, longe). Brutality do Smoke: Y, A, A, X, L, L, B, B, Y, L, L.
+  - Retratos próprios na seleção e na torre, arte do VS, nome na barra de vida, "TRIBORG WINS", voz do locutor, pose de vitória do Smoke, biografia ("???" enquanto estiver bloqueado) e final próprio; sem a fumaça do Smoke em volta dele. Funciona também nos modos de equipe.
+- **Beta 72:** Motaro do jogador: bola de fogo nova saindo da ponta da cauda com baixo, trás + chute baixo (A), e a tela treme quando ele pousa de um pulo.
+- **Beta 72:** agarrão do Motaro (CPU e jogador): não tira mais vida na hora de pegar; só o soco tira, também com o oponente defendendo.
+- **Beta 72:** teleporte com arremesso do Noob Saibot na Sheeva: ela não fica mais longe dele, na pose da Sonya; fica presa como todo mundo.
+- **Beta 72:** Khameleon: depois do Mercy o locutor não fala mais "Jade".
 
 - **Beta 71:** a versão do jogo aparece na tela OPTIONS, em letra pequena no canto de baixo à direita, na linha do CREDITS (VER.BETA71).
 - **Beta 71:** torre e 2 jogadores: os cenários agora são sorteados entre os 17 (cada um sai uma vez antes de repetir e nunca o mesmo duas vezes seguidas). Antes a torre seguia sempre a mesma ordem, com os cenários do MK3 primeiro, e a 1ª luta depois de ligar era sempre no Rooftop. O Motaro e o Shao Kahn da CPU continuam nos cenários deles e a KOMBAT ZONE continua escolhendo o cenário.
