@@ -4,7 +4,7 @@ A Super Nintendo hack of **Ultimate Mortal Kombat 3** that brings the game close
 
 UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 
-**Download (beta 72):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
+**Download (beta 73):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
 
 ![Main menu](images/titulo.png) ![Select screen](images/img1_selecao.png)
 ![Mode select](images/img2_modos.png) ![Tower](images/img3_torre.png)
@@ -16,13 +16,17 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 |---|---|
 | Apply to | `Ultimate Mortal Kombat 3 (USA).sfc` (4 MB, no header) |
 | Original ROM MD5 | `0644da71f79d405a22934daa1474cefc` |
-| Patched ROM MD5 | `4151e2b2d4a198036bea3153b939f38a` |
+| Patched ROM MD5 | `ff3e4d3431b8e287cf43edc54ebfaf5a` |
 
 - The patched ROM is 8 MB (64 Mbit, ExHiROM). Use a patcher that can expand the file: Floating IPS, Lunar IPS, [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or UniPatcher.
 - If your ROM is 4,194,816 bytes (512-byte header, common in `.smc` files), remove the header first.
 - No MSU-1 needed. Tested in Snes9x and bsnes. Runs on emulators and flashcarts that support 64 Mbit ExHiROM (e.g. FXPak / SD2SNES); flashcarts limited to 32 Mbit will not run it.
 
-## Latest changes (betas 57-72)
+## Latest changes (betas 57-73)
+
+- **Beta 73:** Triborg's juggle: after the jump kick the opponent now falls away on the diagonal (it used to go up again). The fall is a bit slower, so the teleport still catches it in the air.
+- **Beta 73:** Shao Kahn's Lost Treasures: fixed the fatality demonstrations. The Deluxe had changed 5 of the game's 8 demo lists into pairs where both fighters did a finisher at once (friendship + babality, two fatalities, animalities), which broke the scenes. They are back to the original lists: one fighter does his fatality, the other stands. Treasure 9 shows everything (fatalities 1 and 2, then friendships and babalities two at a time, as in the original game).
+- **Beta 73:** Nightwolf's friendship: the MK2 arcade cabinet that falls next to him no longer flashes through the ninja colors (Chameleon's color cycle was catching its palette).
 
 - **Beta 72:** Shao Kahn's Lost Treasures: after you beat Shao Kahn in 1 player, the treasure screen comes up, as in the arcade (the SNES game only had it in the 8-player tournament), with the menu music. Treasure 0 goes on to your ending; treasures 6 and 7 are the original Endurance fights (Noob Saibot + Ermac, Classic Sub-Zero + Human Smoke) on normal stages; treasure 8 is a fight against **Triborg**.
 - **Beta 72:** new hidden fighter, **Triborg**: the three cyborgs in one (Cyrax, Sektor and Smoke), with their colors cycling. Beat him in treasure 8 to unlock him (a "YOU UNLOCKED TRIBORG" screen shows up), then press SELECT on the "?" slot of the select screen. The game has no save: he stays unlocked until you turn it off or reset.
@@ -108,11 +112,15 @@ Hack de **Ultimate Mortal Kombat 3** para Super Nintendo que deixa o jogo mais p
 
 O conteúdo do UMK3 Deluxe é usado com a permissão do autor, Lucas Dext5r.
 
-**Download (beta 72):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
+**Download (beta 73):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
 
-Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `4151e2b2d4a198036bea3153b939f38a`.
+Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `ff3e4d3431b8e287cf43edc54ebfaf5a`.
 
-### Novidades recentes (betas 57-72)
+### Novidades recentes (betas 57-73)
+
+- **Beta 73:** malabarismo do Triborg: depois do chute no ar o oponente agora cai na diagonal, se afastando (antes ele subia de novo). A queda é um pouco mais lenta, para o teleporte ainda pegar com ele no ar.
+- **Beta 73:** Shao Kahn's Lost Treasures: corrigidas as demonstrações de fatalities. A Deluxe tinha trocado 5 das 8 listas de demonstração do jogo por pares em que os dois lutadores faziam uma finalização ao mesmo tempo (friendship + babality, duas fatalities, animalities), o que estragava as cenas. Voltaram as listas originais: um lutador faz a fatality e o outro fica parado. O tesouro 9 mostra tudo (fatalities 1 e 2, depois friendships e babalities de dois em dois, como no jogo original).
+- **Beta 73:** friendship do Nightwolf: o arcade do MK2 que cai do lado dele não fica mais trocando para as cores dos ninjas (o ciclo de cores do Chameleon pegava a paleta dele).
 
 - **Beta 72:** Shao Kahn's Lost Treasures: vencendo o Shao Kahn no modo de 1 jogador, agora aparece a tela dos tesouros, como no arcade (no SNES ela só existia no torneio de 8 jogadores), com a música do menu. O tesouro 0 segue para o seu final; os tesouros 6 e 7 são as lutas de resistência originais (Noob Saibot + Ermac, Classic Sub-Zero + Human Smoke) em cenários normais; o tesouro 8 é uma luta contra o **Triborg**.
 - **Beta 72:** lutador escondido novo, o **Triborg**: os três ciborgues em um só (Cyrax, Sektor e Smoke), com as cores dos três se alternando. Para desbloquear, vença o Triborg no tesouro 8 (aparece a tela "YOU UNLOCKED TRIBORG") e depois aperte SELECT em cima do "?" na tela de seleção. O jogo não tem save: ele fica liberado até desligar ou dar reset.
