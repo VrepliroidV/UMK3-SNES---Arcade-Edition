@@ -4,7 +4,7 @@ A Super Nintendo hack of **Ultimate Mortal Kombat 3** that brings the game close
 
 UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 
-**Download (beta 78):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
+**Download (beta 78):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_extended_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
 
 ![Main menu](images/titulo.png) ![Select screen](images/img1_selecao.png)
 ![Mode select](images/img2_modos.png) ![Tower](images/img3_torre.png)
@@ -127,7 +127,7 @@ Hack de **Ultimate Mortal Kombat 3** para Super Nintendo que deixa o jogo mais p
 
 O conteúdo do UMK3 Deluxe é usado com a permissão do autor, Lucas Dext5r.
 
-**Download (beta 78):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
+**Download (beta 78):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_extended_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
 
 Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `a9c4520fa902b77a1f7365572bb4084f`.
 
