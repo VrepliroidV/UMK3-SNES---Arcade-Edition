@@ -4,7 +4,7 @@ A Super Nintendo hack of **Ultimate Mortal Kombat 3** that brings the game close
 
 UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 
-**Download (beta 73):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
+**Download (beta 74):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
 
 ![Main menu](images/titulo.png) ![Select screen](images/img1_selecao.png)
 ![Mode select](images/img2_modos.png) ![Tower](images/img3_torre.png)
@@ -16,13 +16,16 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 |---|---|
 | Apply to | `Ultimate Mortal Kombat 3 (USA).sfc` (4 MB, no header) |
 | Original ROM MD5 | `0644da71f79d405a22934daa1474cefc` |
-| Patched ROM MD5 | `ff3e4d3431b8e287cf43edc54ebfaf5a` |
+| Patched ROM MD5 | `37c8df0a190948b479a5386ac2991f9a` |
 
 - The patched ROM is 8 MB (64 Mbit, ExHiROM). Use a patcher that can expand the file: Floating IPS, Lunar IPS, [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or UniPatcher.
 - If your ROM is 4,194,816 bytes (512-byte header, common in `.smc` files), remove the header first.
 - No MSU-1 needed. Tested in Snes9x and bsnes. Runs on emulators and flashcarts that support 64 Mbit ExHiROM (e.g. FXPak / SD2SNES); flashcarts limited to 32 Mbit will not run it.
 
-## Latest changes (betas 57-73)
+## Latest changes (betas 57-74)
+
+- **Beta 74:** Triborg's juggle no longer uses the net: during the juggle Back, Back + LK gives the normal kick (Cyrax's own rule), and a net that catches an opponent who has already landed starts a new string (the combo after it is a first one again). After the teleport, the spear goes on with the juggle. The net works as before outside the juggle, and the net followed by the combo still opens a juggle.
+- **Beta 74:** "YOU UNLOCKED TRIBORG" screen: the text is no longer part of the picture. The three lines are real sprites in the font of "SHAO KAHN IS NO MORE" and rise from the bottom one after the other, as on that screen.
 
 - **Beta 73:** Triborg's juggle: after the jump kick the opponent now falls away on the diagonal (it used to go up again). The fall is a bit slower, so the teleport still catches it in the air.
 - **Beta 73:** Shao Kahn's Lost Treasures: fixed the fatality demonstrations. The Deluxe had changed 5 of the game's 8 demo lists into pairs where both fighters did a finisher at once (friendship + babality, two fatalities, animalities), which broke the scenes. They are back to the original lists: one fighter does his fatality, the other stands. Treasure 9 shows everything (fatalities 1 and 2, then friendships and babalities two at a time, as in the original game).
@@ -32,7 +35,7 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 - **Beta 72:** new hidden fighter, **Triborg**: the three cyborgs in one (Cyrax, Sektor and Smoke), with their colors cycling. Beat him in treasure 8 to unlock him (a "YOU UNLOCKED TRIBORG" screen shows up), then press SELECT on the "?" slot of the select screen. The game has no save: he stays unlocked until you turn it off or reset.
   - Cyrax's net (Back, Back + LK) and bombs (hold LK, Fwd, Fwd + HK far / Back, Back + HK close); Sektor's missile (Fwd, Fwd + LP) and homing missile (Fwd, Down, Back + HP); Smoke's spear (Back, Back + LP), teleport punch (Fwd, Fwd + LK, also in the air), air throw (Block in the air) and invisibility (Up, Up + Run).
   - Combos: HP, HP, Down + LP (launcher); HP, HP, HK, HK; HP, HP, LK, HK, LP.
-  - Juggle: after HP, HP, Down + LP, jump in with a kick, teleport in the air (it knocks the opponent up again), land and throw the spear or the net, do the combo again; then only normal hits and the air throw work until the opponent lands.
+  - Juggle: after HP, HP, Down + LP, jump in with a kick, teleport in the air (it knocks the opponent up again), land and throw the spear, do the combo again; then only normal hits and the air throw work until the opponent lands (the net: see beta 74).
   - Fatalities: Cyrax Down, Down, Up, Down + HP; Sektor Fwd, Fwd, Fwd, Back + Block (far); Smoke Up, Up, Fwd, Down (hold Block, far). Smoke's brutality: Y, A, A, X, L, L, B, B, Y, L, L (HP, LK, LK, HK, BL, BL, LP, LP, HP, BL, BL).
   - His own select and tower portraits, VS art, life bar name, "TRIBORG WINS", announcer voice, Smoke's victory pose, biography ("???" until he is unlocked) and ending; no smoke cloud around him. He also works in the team modes.
 - **Beta 72:** player Motaro: new tail fireball (it comes out of the tip of his tail) with Down, Back + LK, and the screen shakes when he lands from a jump.
@@ -112,11 +115,14 @@ Hack de **Ultimate Mortal Kombat 3** para Super Nintendo que deixa o jogo mais p
 
 O conteúdo do UMK3 Deluxe é usado com a permissão do autor, Lucas Dext5r.
 
-**Download (beta 73):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
+**Download (beta 74):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
 
-Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `ff3e4d3431b8e287cf43edc54ebfaf5a`.
+Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `37c8df0a190948b479a5386ac2991f9a`.
 
-### Novidades recentes (betas 57-73)
+### Novidades recentes (betas 57-74)
+
+- **Beta 74:** malabarismo do Triborg sem a rede: durante o malabarismo trás, trás + chute baixo dá o chute normal (a regra da rede do Cyrax), e uma rede que pega o oponente que já caiu no chão começa uma sequência nova (o combo depois dela conta como o primeiro). Depois do teleporte, o arpão continua o malabarismo. Fora dele a rede funciona como antes, e rede + combo continua abrindo o malabarismo.
+- **Beta 74:** tela "YOU UNLOCKED TRIBORG": o texto não faz mais parte da imagem. As três linhas agora são sprites de verdade na fonte de "SHAO KAHN IS NO MORE" e sobem de baixo uma depois da outra, como naquela tela.
 
 - **Beta 73:** malabarismo do Triborg: depois do chute no ar o oponente agora cai na diagonal, se afastando (antes ele subia de novo). A queda é um pouco mais lenta, para o teleporte ainda pegar com ele no ar.
 - **Beta 73:** Shao Kahn's Lost Treasures: corrigidas as demonstrações de fatalities. A Deluxe tinha trocado 5 das 8 listas de demonstração do jogo por pares em que os dois lutadores faziam uma finalização ao mesmo tempo (friendship + babality, duas fatalities, animalities), o que estragava as cenas. Voltaram as listas originais: um lutador faz a fatality e o outro fica parado. O tesouro 9 mostra tudo (fatalities 1 e 2, depois friendships e babalities de dois em dois, como no jogo original).
@@ -126,7 +132,7 @@ Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, 
 - **Beta 72:** lutador escondido novo, o **Triborg**: os três ciborgues em um só (Cyrax, Sektor e Smoke), com as cores dos três se alternando. Para desbloquear, vença o Triborg no tesouro 8 (aparece a tela "YOU UNLOCKED TRIBORG") e depois aperte SELECT em cima do "?" na tela de seleção. O jogo não tem save: ele fica liberado até desligar ou dar reset.
   - Rede do Cyrax (trás, trás + chute baixo) e bombas (segure chute baixo, frente, frente + chute alto longe / trás, trás + chute alto perto); míssil do Sektor (frente, frente + soco fraco) e míssil perseguidor (frente, baixo, trás + soco forte); arpão do Smoke (trás, trás + soco fraco), teleporte (frente, frente + chute baixo, também no ar), agarrão no ar (defesa no ar) e invisibilidade (cima, cima + corrida).
   - Combos: soco forte, soco forte, baixo + soco fraco (lança); soco forte, soco forte, chute alto, chute alto; soco forte, soco forte, chute baixo, chute alto, soco fraco.
-  - Malabarismo: depois do soco forte, soco forte, baixo + soco fraco, pule e acerte um chute, faça o teleporte no ar (ele joga o oponente para o alto de novo), já no chão solte o arpão ou a rede e faça o combo de novo; depois disso só os golpes normais e o agarrão no ar pegam até o oponente cair no chão.
+  - Malabarismo: depois do soco forte, soco forte, baixo + soco fraco, pule e acerte um chute, faça o teleporte no ar (ele joga o oponente para o alto de novo), já no chão solte o arpão e faça o combo de novo; depois disso só os golpes normais e o agarrão no ar pegam até o oponente cair no chão (a rede: ver a beta 74).
   - Fatalities: do Cyrax baixo, baixo, cima, baixo + soco forte; do Sektor frente, frente, frente, trás + defesa (longe); do Smoke cima, cima, frente, baixo (segurando defesa, longe). Brutality do Smoke: Y, A, A, X, L, L, B, B, Y, L, L.
   - Retratos próprios na seleção e na torre, arte do VS, nome na barra de vida, "TRIBORG WINS", voz do locutor, pose de vitória do Smoke, biografia ("???" enquanto estiver bloqueado) e final próprio; sem a fumaça do Smoke em volta dele. Funciona também nos modos de equipe.
 - **Beta 72:** Motaro do jogador: bola de fogo nova saindo da ponta da cauda com baixo, trás + chute baixo (A), e a tela treme quando ele pousa de um pulo.
