@@ -123,7 +123,7 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 
 ## Português
 
-Hack de **Ultimate Mortal Kombat 3** para Super Nintendo que deixa o jogo mais perto do arcade. Traz tudo do UMK3 Deluxe do Lucas Dext5r e usa a hack de Mega Drive "UMK3 Arcade" do Nemesis_C como referência.
+Hack de **Ultimate Mortal Kombat 3** para Super Nintendo. Traz tudo do UMK3 Deluxe do Lucas Dext5r e usa a hack de Mega Drive "UMK3 Arcade" do Nemesis_C como referência.
 
 O conteúdo do UMK3 Deluxe é usado com a permissão do autor, Lucas Dext5r.
 
