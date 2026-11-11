@@ -4,7 +4,7 @@ A Super Nintendo hack of **Ultimate Mortal Kombat 3** that brings the game close
 
 UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 
-**Download (beta 74):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
+**Download (beta 75):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
 
 ![Main menu](images/titulo.png) ![Select screen](images/img1_selecao.png)
 ![Mode select](images/img2_modos.png) ![Tower](images/img3_torre.png)
@@ -16,13 +16,18 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 |---|---|
 | Apply to | `Ultimate Mortal Kombat 3 (USA).sfc` (4 MB, no header) |
 | Original ROM MD5 | `0644da71f79d405a22934daa1474cefc` |
-| Patched ROM MD5 | `37c8df0a190948b479a5386ac2991f9a` |
+| Patched ROM MD5 | `e92f6a0754db8c7f8aa50618d3a2f45e` |
 
 - The patched ROM is 8 MB (64 Mbit, ExHiROM). Use a patcher that can expand the file: Floating IPS, Lunar IPS, [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or UniPatcher.
 - If your ROM is 4,194,816 bytes (512-byte header, common in `.smc` files), remove the header first.
 - No MSU-1 needed. Tested in Snes9x and bsnes. Runs on emulators and flashcarts that support 64 Mbit ExHiROM (e.g. FXPak / SD2SNES); flashcarts limited to 32 Mbit will not run it.
 
-## Latest changes (betas 57-74)
+## Latest changes (betas 57-75)
+
+- **Beta 75:** Triborg's juggle: the jump kick now knocks the opponent away with the game's normal fall (like any hit in the air: a short rise, then the diagonal fall). The slower fall of beta 73 looked odd. The teleport still catches the opponent in the air.
+- **Beta 75:** Triborg's juggle: the spear comes out only once in a string. If the spear opened it (spear, then HP, HP, Down + LP...), it no longer comes out again after the teleport; Back, Back + LP gives the normal punch until the string is over.
+- **Beta 75:** Triborg: HP, HP, Down + LP in the corner now pushes him back and keeps him in the combo's last frame until the opponent comes down, as the game does (e.g. Sektor). He used to recover right away and could rush the cornered opponent. The juggle therefore goes on only from mid-screen.
+- **Beta 75:** heavy fights (e.g. Motaro vs Shao Kahn in the tower): fixed the flicker where the whole HUD (life bars, names) vanished for a frame. When a frame's work ran late, a few screen registers were written after the top of the next frame had started and turned the HUD layer off. They are written earlier now; a late frame only leaves 1-2 black lines at the very top.
 
 - **Beta 74:** Triborg's juggle no longer uses the net: during the juggle Back, Back + LK gives the normal kick (Cyrax's own rule), and a net that catches an opponent who has already landed starts a new string (the combo after it is a first one again). After the teleport, the spear goes on with the juggle. The net works as before outside the juggle, and the net followed by the combo still opens a juggle.
 - **Beta 74:** "YOU UNLOCKED TRIBORG" screen: the text is no longer part of the picture. The three lines are real sprites in the font of "SHAO KAHN IS NO MORE" and rise from the bottom one after the other, as on that screen.
@@ -115,11 +120,16 @@ Hack de **Ultimate Mortal Kombat 3** para Super Nintendo que deixa o jogo mais p
 
 O conteúdo do UMK3 Deluxe é usado com a permissão do autor, Lucas Dext5r.
 
-**Download (beta 74):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
+**Download (beta 75):** [UMK3_arcade_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Arcade-Edition/raw/main/UMK3_arcade_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
 
-Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `37c8df0a190948b479a5386ac2991f9a`.
+Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `e92f6a0754db8c7f8aa50618d3a2f45e`.
 
-### Novidades recentes (betas 57-74)
+### Novidades recentes (betas 57-75)
+
+- **Beta 75:** malabarismo do Triborg: o chute no ar agora joga o oponente com a queda normal do jogo (como qualquer golpe no ar: sobe um pouco e cai na diagonal). A queda mais lenta da beta 73 ficava esquisita. O teleporte continua pegando o oponente no ar.
+- **Beta 75:** malabarismo do Triborg: o arpão sai uma vez só na sequência. Se a sequência começou com o arpão (arpão, depois soco forte, soco forte, baixo + soco fraco...), ele não sai de novo depois do teleporte; trás, trás + soco fraco dá o soco normal até a sequência acabar.
+- **Beta 75:** Triborg: soco forte, soco forte, baixo + soco fraco no canto agora empurra o Triborg para trás e o deixa no último quadro do combo até o oponente cair, como o jogo faz (ex.: Sektor). Antes ele voltava logo e dava tempo de ir para cima do oponente no canto. Por isso o malabarismo só continua a partir do meio da tela.
+- **Beta 75:** lutas pesadas (ex.: Motaro x Shao Kahn na torre): corrigida a piscada em que o HUD inteiro (barras de vida e nomes) sumia por um quadro. Quando o trabalho de um quadro atrasava, alguns registradores da tela eram gravados com o topo do quadro seguinte já começando e desligavam a camada do HUD. Agora eles são gravados antes; um quadro atrasado só deixa 1-2 linhas pretas no alto da tela.
 
 - **Beta 74:** malabarismo do Triborg sem a rede: durante o malabarismo trás, trás + chute baixo dá o chute normal (a regra da rede do Cyrax), e uma rede que pega o oponente que já caiu no chão começa uma sequência nova (o combo depois dela conta como o primeiro). Depois do teleporte, o arpão continua o malabarismo. Fora dele a rede funciona como antes, e rede + combo continua abrindo o malabarismo.
 - **Beta 74:** tela "YOU UNLOCKED TRIBORG": o texto não faz mais parte da imagem. As três linhas agora são sprites de verdade na fonte de "SHAO KAHN IS NO MORE" e sobem de baixo uma depois da outra, como naquela tela.
