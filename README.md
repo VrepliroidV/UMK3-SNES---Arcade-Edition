@@ -4,7 +4,7 @@ A Super Nintendo hack of **Ultimate Mortal Kombat 3**. It includes everything fr
 
 UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 
-**Download (beta 84):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
+**Download (beta 85):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
 
 ![Main menu](images/titulo.png) ![Select screen](images/img1_selecao.png)
 ![Mode select](images/img2_modos.png) ![Tower](images/img3_torre.png)
@@ -16,14 +16,16 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 |---|---|
 | Apply to | `Ultimate Mortal Kombat 3 (USA).sfc` (4 MB, no header) |
 | Original ROM MD5 | `0644da71f79d405a22934daa1474cefc` |
-| Patched ROM MD5 | `66ef6328294cd1a9a6843436dc4d0a2b` |
+| Patched ROM MD5 | `7a37393c4a25bfc8bc029495586def0d` |
 
 - The patched ROM is 8 MB (64 Mbit, ExHiROM). Use a patcher that can expand the file: Floating IPS, Lunar IPS, [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or UniPatcher.
 - If your ROM is 4,194,816 bytes (512-byte header, common in `.smc` files), remove the header first.
 - No MSU-1 needed. Tested in Snes9x and bsnes. Runs on emulators and flashcarts that support 64 Mbit ExHiROM (e.g. FXPak / SD2SNES); flashcarts limited to 32 Mbit will not run it.
 
-## Latest changes (betas 57-84)
+## Latest changes (betas 57-85)
 
+- **Beta 85:** Rain gets the **Friendship** from Mortal Kombat Trilogy (N64): Down, Fwd, Fwd, Fwd + LP (B), from a sweep's distance, at FINISH HIM, without blocking in the round. He raises his arm (his lightning move) and keeps it up; water drops fall on the opponent and small flowers grow on the floor around it (sprouts, then open, then in full bloom). The rain stops little by little and the flowers stay.
+- **Beta 85:** Classic Sub-Zero's fatality where the screen goes black (Down, Down, Down, Fwd + HP, close): after the head rip the screen stays black, but SUBZERO WINS, FLAWLESS VICTORY (when the fight was perfect) and FATALITY now show on it.
 - **Beta 84:** Classic Sub-Zero gets the snowman-in-a-box **Friendship** from Mortal Kombat Trilogy (N64): Down, Back, Back, Fwd + LK (A), from a sweep's distance, at FINISH HIM, without blocking in the round. He winds the ninjas' music box and a snowman head pops out on a blue neck; the opponent gets scared and runs away.
 - **Beta 84:** Nightwolf's fatality (Up, Up, Back, Fwd + Block, close): the skeleton shows inside the light beam again, the beam reaches the top of the screen (behind the HUD) and thins out at the end, as in the original. Its frames with the skeleton were too big for the per-frame graphics limit the hack uses in fights and never got drawn.
 - **Beta 83:** Noob Saibot gets the **Shadow Spin** fatality from Mortal Kombat Trilogy (N64): Back, Back, Fwd, Fwd + HK (X), from a sweep's distance, at FINISH HIM. He raises his hand and keeps it up; his shadow comes down over the (still dizzy) opponent to its waist, the opponent rises with it and spins as in Sindel's hair fatality, spraying blood and bones.
@@ -140,12 +142,14 @@ Hack de **Ultimate Mortal Kombat 3** para Super Nintendo. Traz tudo do UMK3 Delu
 
 O conteúdo do UMK3 Deluxe é usado com a permissão do autor, Lucas Dext5r.
 
-**Download (beta 84):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
+**Download (beta 85):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
 
-Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `66ef6328294cd1a9a6843436dc4d0a2b`.
+Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `7a37393c4a25bfc8bc029495586def0d`.
 
-### Novidades recentes (betas 57-84)
+### Novidades recentes (betas 57-85)
 
+- **Beta 85:** o Rain ganhou o **Friendship** do Mortal Kombat Trilogy (N64): baixo, frente, frente, frente + soco baixo (B), na distância de uma rasteira, no FINISH HIM, sem ter usado a defesa no round. Ele levanta o braço (a animação do raio) e fica assim até o fim; caem gotinhas de água sobre o oponente e nascem flores pequenas no chão em volta dele (brotos, depois abertas e por fim desabrochadas). A chuva vai parando aos poucos e as flores ficam.
+- **Beta 85:** fatality do Classic Sub-Zero em que a tela fica preta (baixo, baixo, baixo, frente + soco alto, de perto): depois do arranco da cabeça a tela continua preta, mas agora com SUBZERO WINS, FLAWLESS VICTORY (quando a luta foi perfeita) e FATALITY aparecendo.
 - **Beta 84:** o Classic Sub-Zero ganhou o **Friendship** do boneco de neve na caixa do Mortal Kombat Trilogy (N64): baixo, trás, trás, frente + chute baixo (A), na distância de uma rasteira, no FINISH HIM, sem ter usado a defesa no round. Ele gira a manivela da caixa de música como os outros ninjas e sai uma cabeça de boneco de neve num pescoço azul; o oponente se assusta e foge correndo.
 - **Beta 84:** fatality do Nightwolf (cima, cima, trás, frente + defesa, de perto): a caveira voltou a aparecer dentro do raio de luz, o raio vai até o topo da tela (por trás do HUD) e afina no final, como na versão original. Os quadros do raio com a caveira eram grandes demais para o limite de gráficos por quadro que a hack usa nas lutas e nunca eram desenhados.
 - **Beta 83:** o Noob Saibot ganhou o fatality **Shadow Spin** do Mortal Kombat Trilogy (N64): trás, trás, frente, frente + chute alto (X), na distância de uma rasteira, no FINISH HIM. Ele levanta a mão e fica assim até o fim; a sombra dele vem por cima do oponente (ainda tonto) até a cintura, o oponente levita junto com ela e gira como no fatality do cabelo da Sindel, espalhando sangue e ossos.
