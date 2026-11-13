@@ -4,7 +4,7 @@ A Super Nintendo hack of **Ultimate Mortal Kombat 3**. It includes everything fr
 
 UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 
-**Download (beta 91):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
+**Download (beta 92):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
 
 ![Main menu](images/titulo.png) ![Select screen](images/img1_selecao.png)
 ![Mode select](images/img2_modos.png) ![Tower](images/img3_torre.png)
@@ -16,14 +16,16 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 |---|---|
 | Apply to | `Ultimate Mortal Kombat 3 (USA).sfc` (4 MB, no header) |
 | Original ROM MD5 | `0644da71f79d405a22934daa1474cefc` |
-| Patched ROM MD5 | `7716e15d8c21649ca34fda9ac5e28d51` |
+| Patched ROM MD5 | `e9a018bf363f0adb452db4b4371600aa` |
 
 - The patched ROM is 8 MB (64 Mbit, ExHiROM). Use a patcher that can expand the file: Floating IPS, Lunar IPS, [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or UniPatcher.
 - If your ROM is 4,194,816 bytes (512-byte header, common in `.smc` files), remove the header first.
 - No MSU-1 needed. Tested in Snes9x and bsnes. Runs on emulators and flashcarts that support 64 Mbit ExHiROM (e.g. FXPak / SD2SNES); flashcarts limited to 32 Mbit will not run it.
 
-## Latest changes (betas 57-91)
+## Latest changes (betas 57-92)
 
+- **Beta 92:** new hidden stage **Noob's Dorfen**, as in MK3: The Balcony without its back wall and the two Motaro statues, in dark colours, with the Hidden Portal's music. It is the 18th Kombat Zone stage and always the stage of Shao Kahn's treasure 6.
+- **Beta 92:** **MK3's Noob Saibot** (Kano in black). Shao Kahn's treasure 6 (the silhouette) is now a fight against him alone; Ermac moved to treasure 7 with Classic Sub-Zero and Human Smoke. Beat him and, until the game is switched off, SELECT on Kano at the select screen turns Kano all black, and again black and grey: he plays as Kano, but the life bar says NOOB, the announcer calls him Noob Saibot and the win text is NOOB SAIBOT WINS. X on Kano still switches his two normal colours.
 - **Beta 91:** the **mode select screen** has new art by Repliroid do Futuro (darker stone). The red frame of the chosen window now blinks between red and a darker red, and the mode names stay white in the chosen window too.
 - **Beta 90:** fixed: after beating Shao Kahn in 1 player the game stopped on a red screen (betas 84-89), so **Shao Kahn's Lost Treasures** and the endings never came up. Classic Sub-Zero's friendship (beta 84) had overwritten a few bytes of the music data played after Kahn's death. The winner text, the treasures and the endings are back.
 - **Beta 89:** new **mode select screen**, art by Repliroid do Futuro: four windows side by side, MORTAL KOMBAT | 4 PLAYER 2 ON 2 KOMBAT | 8 PLAYER TOURNAMENT KOMBAT | TRAINING. Left / Right move between the four (TRAINING is now the fourth window); L / R on the second window switch it to 6 PLAYER 3 ON 3 KOMBAT and back. The chosen window gets a red frame and red text, and the screen shakes when a mode is picked, as before.
@@ -149,12 +151,14 @@ Hack de **Ultimate Mortal Kombat 3** para Super Nintendo. Traz tudo do UMK3 Delu
 
 O conteúdo do UMK3 Deluxe é usado com a permissão do autor, Lucas Dext5r.
 
-**Download (beta 91):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
+**Download (beta 92):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
 
-Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `7716e15d8c21649ca34fda9ac5e28d51`.
+Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `e9a018bf363f0adb452db4b4371600aa`.
 
-### Novidades recentes (betas 57-91)
+### Novidades recentes (betas 57-92)
 
+- **Beta 92:** fase escondida nova **Noob's Dorfen**, como no MK3: a The Balcony sem a parede do fundo e sem as duas estátuas do Motaro, escurecida, com a música do Hidden Portal. É a 18ª fase do KOMBAT ZONE e sempre a fase do tesouro 6 do Shao Kahn.
+- **Beta 92:** **o Noob Saibot do MK3** (o Kano todo preto). O tesouro 6 (a silhueta) agora é uma luta só contra ele; o Ermac foi para o tesouro 7, junto do Classic Sub-Zero e do Human Smoke. Vencendo, até desligar o jogo, o SELECT no Kano na tela de seleção deixa o Kano todo preto e, de novo, preto e cinza: ele joga como o Kano, mas a barra de vida diz NOOB, o locutor diz "Noob Saibot" e o texto de vitória é NOOB SAIBOT WINS. O X no Kano continua trocando as duas cores normais dele.
 - **Beta 91:** **tela de escolha do modo** com arte nova do Repliroid do Futuro (pedra mais escura). A moldura vermelha da janela escolhida agora pisca entre o vermelho e um vermelho mais escuro, e os nomes dos modos ficam brancos também na janela escolhida.
 - **Beta 90:** corrigido: depois de vencer o Shao Kahn no modo de 1 jogador o jogo parava numa tela vermelha (betas 84 a 89), e os **tesouros do Shao Kahn** (Shao Kahn's Lost Treasures) e os finais nunca apareciam. O friendship do Classic Sub-Zero (beta 84) tinha ficado em cima de alguns bytes dos dados da música que toca depois da morte do Kahn. Os textos do vencedor, a tela dos tesouros e os finais voltaram.
 - **Beta 89:** **tela nova de escolha do modo**, com arte do Repliroid do Futuro: quatro janelas lado a lado, MORTAL KOMBAT | 4 PLAYER 2 ON 2 KOMBAT | 8 PLAYER TOURNAMENT KOMBAT | TRAINING. Esquerda e direita andam entre as quatro (o TRAINING agora é a quarta janela); L ou R na segunda janela troca para 6 PLAYER 3 ON 3 KOMBAT e volta. A janela escolhida fica com moldura e texto vermelhos, e a tela treme ao escolher, como antes.
