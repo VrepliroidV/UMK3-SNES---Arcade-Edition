@@ -4,7 +4,7 @@ A Super Nintendo hack of **Ultimate Mortal Kombat 3**. It includes everything fr
 
 UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 
-**Download (beta 92):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
+**Download (beta 93):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
 
 ![Main menu](images/titulo.png) ![Select screen](images/img1_selecao.png)
 ![Mode select](images/img2_modos.png) ![Tower](images/img3_torre.png)
@@ -16,14 +16,15 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 |---|---|
 | Apply to | `Ultimate Mortal Kombat 3 (USA).sfc` (4 MB, no header) |
 | Original ROM MD5 | `0644da71f79d405a22934daa1474cefc` |
-| Patched ROM MD5 | `e9a018bf363f0adb452db4b4371600aa` |
+| Patched ROM MD5 | `39487ad3e5037c2be08306dfa01ac980` |
 
 - The patched ROM is 8 MB (64 Mbit, ExHiROM). Use a patcher that can expand the file: Floating IPS, Lunar IPS, [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or UniPatcher.
 - If your ROM is 4,194,816 bytes (512-byte header, common in `.smc` files), remove the header first.
 - No MSU-1 needed. Tested in Snes9x and bsnes. Runs on emulators and flashcarts that support 64 Mbit ExHiROM (e.g. FXPak / SD2SNES); flashcarts limited to 32 Mbit will not run it.
 
-## Latest changes (betas 57-92)
+## Latest changes (betas 57-93)
 
+- **Beta 93:** **8 PLAYER TOURNAMENT** fixes: the bracket shows the names of Sheeva, Chameleon, Motaro, Shao Kahn, Khameleon and Triborg (it drew garbage), and Khameleon / Triborg stay themselves when they win a match (they went up the bracket, and into the next match, as Jade / Smoke).
 - **Beta 92:** new hidden stage **Noob's Dorfen**, as in MK3: The Balcony without its back wall and the two Motaro statues, in dark colours, with the Hidden Portal's music. It is the 18th Kombat Zone stage and always the stage of Shao Kahn's treasure 6.
 - **Beta 92:** **MK3's Noob Saibot** (Kano in black). Shao Kahn's treasure 6 (the silhouette) is now a fight against him alone; Ermac moved to treasure 7 with Classic Sub-Zero and Human Smoke. Beat him and, until the game is switched off, SELECT on Kano at the select screen turns Kano all black, and again black and grey: he plays as Kano, but the life bar says NOOB, the announcer calls him Noob Saibot and the win text is NOOB SAIBOT WINS. X on Kano still switches his two normal colours.
 - **Beta 91:** the **mode select screen** has new art by Repliroid do Futuro (darker stone). The red frame of the chosen window now blinks between red and a darker red, and the mode names stay white in the chosen window too.
@@ -151,12 +152,13 @@ Hack de **Ultimate Mortal Kombat 3** para Super Nintendo. Traz tudo do UMK3 Delu
 
 O conteúdo do UMK3 Deluxe é usado com a permissão do autor, Lucas Dext5r.
 
-**Download (beta 92):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
+**Download (beta 93):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
 
-Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `e9a018bf363f0adb452db4b4371600aa`.
+Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `39487ad3e5037c2be08306dfa01ac980`.
 
-### Novidades recentes (betas 57-92)
+### Novidades recentes (betas 57-93)
 
+- **Beta 93:** correções no **TOURNAMENT de 8 jogadores**: a chave mostra os nomes da Sheeva, do Chameleon, do Motaro, do Shao Kahn, do Khameleon e do Triborg (antes aparecia lixo na tela), e o Khameleon e o Triborg continuam sendo eles quando vencem uma luta (antes subiam na chave, e iam para a luta seguinte, como Jade e Smoke).
 - **Beta 92:** fase escondida nova **Noob's Dorfen**, como no MK3: a The Balcony sem a parede do fundo e sem as duas estátuas do Motaro, escurecida, com a música do Hidden Portal. É a 18ª fase do KOMBAT ZONE e sempre a fase do tesouro 6 do Shao Kahn.
 - **Beta 92:** **o Noob Saibot do MK3** (o Kano todo preto). O tesouro 6 (a silhueta) agora é uma luta só contra ele; o Ermac foi para o tesouro 7, junto do Classic Sub-Zero e do Human Smoke. Vencendo, até desligar o jogo, o SELECT no Kano na tela de seleção deixa o Kano todo preto e, de novo, preto e cinza: ele joga como o Kano, mas a barra de vida diz NOOB, o locutor diz "Noob Saibot" e o texto de vitória é NOOB SAIBOT WINS. O X no Kano continua trocando as duas cores normais dele.
 - **Beta 91:** **tela de escolha do modo** com arte nova do Repliroid do Futuro (pedra mais escura). A moldura vermelha da janela escolhida agora pisca entre o vermelho e um vermelho mais escuro, e os nomes dos modos ficam brancos também na janela escolhida.
