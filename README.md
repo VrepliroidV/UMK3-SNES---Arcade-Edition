@@ -4,7 +4,7 @@ A Super Nintendo hack of **Ultimate Mortal Kombat 3**. It includes everything fr
 
 UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 
-**Download (beta 95):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
+**Download (beta 96):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
 
 ![Main menu](images/titulo.png) ![Select screen](images/img1_selecao.png)
 ![Mode select](images/img2_modos.png) ![Tower](images/img3_torre.png)
@@ -16,14 +16,15 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 |---|---|
 | Apply to | `Ultimate Mortal Kombat 3 (USA).sfc` (4 MB, no header) |
 | Original ROM MD5 | `0644da71f79d405a22934daa1474cefc` |
-| Patched ROM MD5 | `a7e9b109e064fb7d057c6f982e45572c` |
+| Patched ROM MD5 | `2620d9d593719893feed23365fa119db` |
 
 - The patched ROM is 8 MB (64 Mbit, ExHiROM). Use a patcher that can expand the file: Floating IPS, Lunar IPS, [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or UniPatcher.
 - If your ROM is 4,194,816 bytes (512-byte header, common in `.smc` files), remove the header first.
 - No MSU-1 needed. Tested in Snes9x and bsnes. Runs on emulators and flashcarts that support 64 Mbit ExHiROM (e.g. FXPak / SD2SNES); flashcarts limited to 32 Mbit will not run it.
 
-## Latest changes (betas 57-95)
+## Latest changes (betas 57-96)
 
+- **Beta 96:** **PAUSE** in every fight: START pauses (the fight is frozen and darkened, PAUSE in big gold letters, the music lower) and START again goes back exactly where it was. SELECT opens BACK / MOVELIST / EXIT: BACK returns to PAUSE, EXIT gives up the fight and goes to the main menu (the tower starts again from CHOOSE YOUR DESTINY). **MOVELIST**: each fighter's special moves and finishers, shown with the SNES buttons of your own controller setup and the arrows for the side you face; it is in the PAUSE menu and in the TRAINING menu (SELECT). TRAINING: new option FATALITY TIME (NORMAL / INFINITE). Fixed: in Motaro x Motaro the tail fireballs bounced back and forth and one could take over player 1's Motaro (drawn all over the stage, then the game hung); now Motaro throws back only a projectile nobody has thrown back yet. Fixed: Rain's fatality (Down, Down, Back, Fwd + HK) now shows the FATALITY text. ENABLE PAUSE is no longer in the cheat list.
 - **Beta 95:** **TRAINING** without the VS screen (the fight starts right after the select screen). Changing DUMMY to or from CPU now happens in the same fight, without starting it again. With FINISH ON the other options are fixed (DUMMY STAND, BLOCK OFF, LIFE FINISH, RUN NORMAL) and shown in dark red; turning FINISH off gives your choices back. Yellow TRAINING title. Fixed: while the menu was open a fighter who was moving (running, thrown) kept moving and could leave the stage; the fight is now fully frozen. The J in JUMP no longer looks like a T.
 - **Beta 94:** **TRAINING mode with its own menu.** After the VS screen the fight starts frozen with the TRAINING menu on top: DUMMY (STAND / CROUCH / JUMP / CPU / PLAYER 2, controller 2 plays the opponent), BLOCK (OFF / ON / RANDOM), LIFE (INFINITE / REFILL), RUN (NORMAL / INFINITE) and FINISH (every round is the deciding one and the opponent has 1 point of health: one hit and it's FINISH HIM / HER, to practise fatalities, babalities and mercy; afterwards a new round starts). In the fight START opens the menu: START goes back exactly where the fight was, B to the mode screen, X to the select screen. The cheat menus' codes have no effect in training; START + SELECT is no longer used. On the mode select screen B goes back to the main menu.
 - **Beta 93:** **8 PLAYER TOURNAMENT** fixes: the bracket shows the names of Sheeva, Chameleon, Motaro, Shao Kahn, Khameleon and Triborg (it drew garbage), and Khameleon / Triborg stay themselves when they win a match (they went up the bracket, and into the next match, as Jade / Smoke).
@@ -135,7 +136,8 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 - Arcade intro story, redesigned main menu and mode select, CHOOSE YOUR DESTINY tower with the GOD tower.
 - Fighter names inside the life bars, as in the arcade.
 - Air combos for Kitana, Jade and Mileena.
-- **TRAINING mode** with its own menu: the opponent can stand, crouch, jump, block (always or at random), be the CPU or player 2; infinite or refilling health, infinite run, and a FINISH option to practise fatalities, babalities and mercy. START freezes the fight and opens the menu, and every change (CPU included) takes effect in the same fight; KOMBAT ZONE stage select.
+- **TRAINING mode** with its own menu: the opponent can stand, crouch, jump, block (always or at random), be the CPU or player 2; infinite or refilling health, infinite run, a FINISH option to practise fatalities, babalities and mercy, infinite FATALITY TIME and the MOVELIST. START freezes the fight and opens the menu, and every change (CPU included) takes effect in the same fight; KOMBAT ZONE stage select.
+- **PAUSE** in every fight (START), with a **MOVELIST** of each fighter's special moves and finishers shown with your own SNES buttons, and EXIT to the main menu.
 - Random stage order in the tower and 2-player fights; random Endurance opponents.
 - KOMBAT ZONE stage select, OPTIONS > CREDITS screen, many sound, announcer and graphics fixes, less slowdown in the boss fights.
 
@@ -154,12 +156,13 @@ Hack de **Ultimate Mortal Kombat 3** para Super Nintendo. Traz tudo do UMK3 Delu
 
 O conteúdo do UMK3 Deluxe é usado com a permissão do autor, Lucas Dext5r.
 
-**Download (beta 95):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
+**Download (beta 96):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
 
-Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `a7e9b109e064fb7d057c6f982e45572c`.
+Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `2620d9d593719893feed23365fa119db`.
 
-### Novidades recentes (betas 57-95)
+### Novidades recentes (betas 57-96)
 
+- **Beta 96:** **PAUSE** em todas as lutas: START pausa (a luta congela e escurece, PAUSE em letras grandes douradas, a música abaixa) e START de novo volta exatamente de onde parou. SELECT abre BACK / MOVELIST / EXIT: BACK volta ao PAUSE, EXIT desiste da luta e vai para o menu principal (a torre recomeça do CHOOSE YOUR DESTINY). **MOVELIST**: os golpes especiais e as finalizações de cada lutador, com os botões do Super Nintendo da sua configuração de controle e as setas do lado para onde ele está virado; está no menu do PAUSE e no menu do TRAINING (SELECT). TRAINING: opção nova FATALITY TIME (NORMAL / INFINITE). Correção: no Motaro x Motaro as bolas do rabo iam e voltavam e uma podia tomar o lugar do Motaro do jogador 1 (embaralhado pelo cenário, depois o jogo travava); agora o Motaro só rebate projétil que ninguém rebateu ainda. Correção: o fatality da Rain (baixo, baixo, trás, frente + HK) agora mostra o texto FATALITY. O ENABLE PAUSE saiu da lista de cheats.
 - **Beta 95:** **TRAINING** sem a tela de VS (a luta começa logo depois da seleção). Trocar o DUMMY para CPU (ou da CPU para outra opção) agora vale na mesma luta, sem recomeçar. Com o FINISH ligado as outras opções ficam fixas e em vermelho escuro (DUMMY STAND, BLOCK OFF, LIFE FINISH, RUN NORMAL); desligando o FINISH, as escolhas de antes voltam. Título TRAINING em amarelo. Correção: com o menu aberto, um lutador em movimento (correndo, sendo arremessado) continuava andando e podia sair do cenário; agora a luta fica totalmente congelada. O J de JUMP não parece mais um T.
 - **Beta 94:** **modo TRAINING com menu próprio.** Depois da tela de VS a luta começa parada, com o menu do TRAINING por cima: DUMMY (STAND / CROUCH / JUMP / CPU / PLAYER 2, o controle 2 controla o oponente), BLOCK (OFF / ON / RANDOM), LIFE (INFINITE / REFILL), RUN (NORMAL / INFINITE) e FINISH (todo round é o decisivo e o oponente tem 1 ponto de vida: um golpe e vem o FINISH HIM / HER, para treinar fatality, babality e mercy; depois começa um round novo). Na luta, START abre o menu: START volta exatamente de onde parou, B vai para a tela de modos e X para a tela de seleção. Os códigos dos menus de cheats não valem no training; START + SELECT não são mais usados. Na tela de modos, B volta para o menu principal.
 - **Beta 93:** correções no **TOURNAMENT de 8 jogadores**: a chave mostra os nomes da Sheeva, do Chameleon, do Motaro, do Shao Kahn, do Khameleon e do Triborg (antes aparecia lixo na tela), e o Khameleon e o Triborg continuam sendo eles quando vencem uma luta (antes subiam na chave, e iam para a luta seguinte, como Jade e Smoke).
