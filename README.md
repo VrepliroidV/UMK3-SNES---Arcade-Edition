@@ -4,7 +4,7 @@ A Super Nintendo hack of **Ultimate Mortal Kombat 3**. It includes everything fr
 
 UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 
-**Download (beta 100):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
+**Download (beta 101):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). The zip has the IPS patch, an English README and the full changelog in Portuguese (LEIA-ME.txt). No ROM is included.
 
 ![Main menu](images/titulo.png) ![Select screen](images/img1_selecao.png)
 ![Mode select](images/img2_modos.png) ![Tower](images/img3_torre.png)
@@ -16,14 +16,15 @@ UMK3 Deluxe content is used with permission from its author, Lucas Dext5r.
 |---|---|
 | Apply to | `Ultimate Mortal Kombat 3 (USA).sfc` (4 MB, no header) |
 | Original ROM MD5 | `0644da71f79d405a22934daa1474cefc` |
-| Patched ROM MD5 | `b6e25f74bbfebf98deedb09dedb5a35f` |
+| Patched ROM MD5 | `f6aaa78854e28ab44234f95c891ea1e1` |
 
 - The patched ROM is 8 MB (64 Mbit, ExHiROM). Use a patcher that can expand the file: Floating IPS, Lunar IPS, [ROM Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) or UniPatcher.
 - If your ROM is 4,194,816 bytes (512-byte header, common in `.smc` files), remove the header first.
 - No MSU-1 needed. Tested in Snes9x and bsnes. Runs on emulators and flashcarts that support 64 Mbit ExHiROM (e.g. FXPak / SD2SNES); flashcarts limited to 32 Mbit will not run it.
 
-## Latest changes (betas 57-97)
+## Latest changes (betas 57-101)
 
+- **Beta 101:** Human Smoke gets the "No Smoking" **Friendship** from Mortal Kombat Trilogy: Down, Fwd, Fwd, Fwd + Run, farther than a sweep (about half a screen), at FINISH HIM, without blocking in the round. A NO SMOKING ALLOWED! sign falls from the top of the screen in front of him and sticks in the floor, then he does his victory pose. It is in the MOVELIST, and One Button Fatalities does it with HK / LK.
 - **Beta 100:** One Button Fatalities reworked: each fighter walks to the right distance for his own fatality, Chameleon, Khameleon, Triborg and Human Smoke do their own, the stage fatality only on stages that have one, and the buttons for a finisher a fighter doesn't have do the normal move. In 4 PLAYER, 6 PLAYER and 8 PLAYER TOURNAMENT every pick has its own colours (Kano and MK3's Noob Saibot can be picked by the same player, and the bracket shows NOOB SAIBOT). Fixed garbage on the cheats screen in 2-player matches.
 - **Beta 99:** Fixed: Shang Tsung had no second outfit (X on the select screen did nothing on him, nor on his opponent). Now both choose their colours; when Shang Tsung morphs into his opponent's fighter he always takes the other colours, so the two never look the same, and his other morphs keep the normal colours, as in the original game.
 - **Beta 98:** Sheeva: the fatality where she punches the opponent into the floor now works on every stage (on The Temple and the Graveyard the opponent used to vanish, elsewhere the buried body showed above the floor); her second fatality (hold HK, Back, Forward, Forward, release, close) is now in the MOVELIST; fixed her throws by Kitana, Jade, Khameleon and Mileena and the knockdowns of the moves new in UMK3, which used leftovers from MK3. Chameleon: Down, Up (the teleport) only once per combo. Fixed: Noob Saibot's slam fatality threw two bursts of bones with two skulls, one of them from a random place in memory, which could freeze a real console; now one burst comes out of the opponent. The TOURNAMENT MODE screen (L+R+START in the main menu) was removed. Fixed: The Temple's candle flames and wall torches after the TRAINING menu and after a PAUSE.
@@ -160,12 +161,13 @@ Hack de **Ultimate Mortal Kombat 3** para Super Nintendo. Traz tudo do UMK3 Delu
 
 O conteúdo do UMK3 Deluxe é usado com a permissão do autor, Lucas Dext5r.
 
-**Download (beta 100):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
+**Download (beta 101):** [UMK3_extended_edition.zip](https://github.com/VrepliroidV/UMK3-SNES---Extended-Edition/raw/main/UMK3_extended_edition.zip). O zip tem o patch IPS, um README em inglês e o LEIA-ME.txt com todas as novidades em português. A ROM não vem junto.
 
-Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `b6e25f74bbfebf98deedb09dedb5a35f`.
+Aplique na `Ultimate Mortal Kombat 3 (USA).sfc` original (4 MB, sem cabeçalho, MD5 `0644da71f79d405a22934daa1474cefc`). Depois do patch a ROM fica com 8 MB e MD5 `f6aaa78854e28ab44234f95c891ea1e1`.
 
-### Novidades recentes (betas 57-97)
+### Novidades recentes (betas 57-101)
 
+- **Beta 101:** o Human Smoke ganhou o **Friendship** "No Smoking" do Mortal Kombat Trilogy: baixo, frente, frente, frente + RUN, mais longe que a distância da rasteira (mais ou menos meia tela), no FINISH HIM, sem ter usado a defesa no round. Uma placa NO SMOKING ALLOWED! cai do alto da tela na frente dele e finca no chão, e ele faz a pose de vitória. Está no MOVELIST, e o One Button Fatalities faz com HK / LK.
 - **Beta 100:** One Button Fatalities refeito: cada lutador anda até a distância certa do fatality dele, Chameleon, Khameleon, Triborg e Human Smoke fazem os deles, o stage fatality só nas fases que têm, e os botões de uma finalização que o lutador não tem fazem o golpe normal. No 4 PLAYER, 6 PLAYER e 8 PLAYER TOURNAMENT cada escolha tem as suas próprias cores (o mesmo jogador pode escolher o Kano e o Noob Saibot do MK3, e a chave mostra NOOB SAIBOT). Correção do lixo na tela dos cheats em partidas de 2 jogadores.
 - **Beta 99:** Correção: o Shang Tsung estava sem a cor alternativa (o X na seleção não fazia nada nele, nem no oponente dele). Agora os dois escolhem a cor; quando o Shang Tsung se transforma no lutador do oponente ele fica sempre com a outra cor, para os dois nunca ficarem iguais, e nas outras transformações fica a cor normal, como no jogo original.
 - **Beta 98:** Sheeva: o fatality de socar o oponente para dentro do chão agora funciona em todas as fases (no Temple e no Graveyard o oponente sumia, nas outras o corpo enterrado aparecia por cima do chão); o segundo fatality dela (segurar HK, trás, frente, frente, soltar, perto) agora está no MOVELIST; corrigidos os arremessos dela pela Kitana, Jade, Khameleon e Mileena e a queda dos golpes novos do UMK3, que usavam restos do MK3. Chameleon: o Baixo, Cima (teleporte) só uma vez por combo. Correção: o fatality do Noob Saibot de quicar o oponente soltava duas rajadas de ossos com dois crânios, uma delas de um lugar qualquer da memória, o que podia travar o console; agora sai uma rajada só, do oponente. A tela TOURNAMENT MODE (L+R+START no menu) foi retirada. Correção: as velas e as tochas do Temple depois do menu do TRAINING e depois de um PAUSE.
